@@ -9,10 +9,10 @@ linkedita:
 	g++ $(SOURCE).o -o $(SOURCE).exe
 
 executa:
-	./$(SOURCE)
+	./$(SOURCE).exe
 
 executa-passo:
-	gdb $(SOURCE)
+	gdb $(SOURCE).exe
 
 limpa:
-	rm -f $(SOURCE).o $(SOURCE)
+	rm -f $(SOURCE).o $(SOURCE).exe
