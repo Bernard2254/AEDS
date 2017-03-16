@@ -1,23 +1,22 @@
 #include <iostream>
 
-using namespace std;
-
-int Fibonacci (int &a, int &b){
-	return a+b;
+//função recursiva para o numero fibonacci
+int fibonacci(int numero,int x, int y)
+{
+  if(numero == 0)
+    return 0;
+  if(numero > 1)
+    return y + fibonacci(numero - 1, y, x + y);
+  else
+    return 1;
 }
 
-void FibonacciPlay(int init ,int n, int &result, int anterior){
-		if(n==1){
-			anterior=Fibonacci(init, anterior);
-		}
-		FibonacciPlay(init, n, result);
-}
-
-
-int main(){
-	int n;
-	int result = 1;
-	cin >> n;
-
-	FibonacciPlay(1, n, result, 1);
+//função principal
+int main()
+{
+  int numero= 0;
+  printf("Posicao: ");
+  scanf("%d",&numero);
+  printf("O numero da posicao %d dos numeros fibonacci eh %d\n",numero,fibonacci(numero,1,0));
+  return 0;
 }
