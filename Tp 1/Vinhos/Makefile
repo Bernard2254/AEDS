@@ -1,9 +1,9 @@
-SOURCE = bandeijao
+SOURCE = vinho
 
 all: compile link run destroy
 
 compile:
-	g++ $(SOURCE).cpp -c -Wall -std=c++11
+	g++ $(SOURCE).cpp -c -Wall -w -std=c++11
 
 link:
 	g++ $(SOURCE).o -o $(SOURCE)

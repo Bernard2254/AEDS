@@ -1,4 +1,4 @@
-SOURCE = bandeijao
+SOURCE = fibonacci
 
 all: compile link run destroy
 
@@ -12,4 +12,4 @@ run:
 	./$(SOURCE) < in
 
 destroy:
-	rm -r $(SOURCE).o $(SOURCE)
+	rm -rf $(SOURCE).o ./$(SOURCE)

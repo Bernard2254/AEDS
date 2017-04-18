@@ -1,4 +1,4 @@
-SOURCE = bandeijao
+SOURCE = natal
 
 all: compile link run destroy
 
@@ -12,4 +12,4 @@ run:
 	./$(SOURCE) < in
 
 destroy:
-	rm -r $(SOURCE).o $(SOURCE)
+	rm -rf ./$(SOURCE) $(SOURCE).o
