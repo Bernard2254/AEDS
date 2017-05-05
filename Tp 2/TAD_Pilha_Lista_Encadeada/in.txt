@@ -1,16 +1,16 @@
-5
 D
-E 5
-E 23
-E 190
+E 5 Bola
+E 23 Birosca
+E 190 Peteca
 D
 I
-E 78
-E 31
-E 66
+E 78 Bambole
+E 31 Pega-Varetas
+E 60 Queimada
 T
-E 891
-E 2721
+E 891 Pique-esconde
+E 2721 Pique-pega
 D
+I
 T
 S
