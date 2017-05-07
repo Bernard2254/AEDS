@@ -1,18 +1,3 @@
-/* ALUNOS: ∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1286 - Motoboy
-∗
-∗ PARADIGMA: Programacao dinamica
-∗
-∗ DESCRICAO DA SOLUCAO:
-	define o caso base como zero
-	e vai percorrendo a tabela (quantidade de pacotes X capacidade)
-	o peso é definido pelas colunas, se tiver como colocar mais alguma coisa na caixinha do motoboy ele pega o caso com mais valor
-	se nao ele define o caso anterior
-	no final o valor é o ultimo elemento da tabela
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n*capacidade) */
 #include <iostream>
 #define PRINT 0
 using namespace std;

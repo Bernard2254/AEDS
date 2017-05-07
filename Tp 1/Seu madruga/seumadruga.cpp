@@ -1,32 +1,3 @@
-/* ALUNOS:
-∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1912 − Ajude o Seu Madruga
-∗
-∗ PARADIGMA: Tentativa e erro usando balanceamento 
-∗
-∗ DESCRICAO DA SOLUCAO: 
-Analisa-se se é possível solucionar o problema (se ele é válido)
--> Caso afirmativo: 
-	*Solução já está pronta? 
-	Exibe: :D.
-	*Solução não está pronta?
-	Tem como ponto de partida o meio da maior tira do problema. Calcula a area usando esse ponto como se fosse o de corte.
-		+ Caso a area obtida seja maior que a procurada: aumenta o ponto de corte para a metade da distancia entre o topo da 
-		maior tira e o ponto de corte atual;
-		+ Caso a area obtida seja menor que a procurada: diminui o ponto de corte para a metade da distancia entre o ponto de
-		corte atual e o ponto de corte anterior;
-		+ Caso a area obtida seja a desejada (como foi pedido uma precisão de 4 casas decimais foi colocado uma condiçao para
-		otimizar o código: se a diferenca entra a area obtida e a area desejada for menor que 0.0001, as consideraremos iguais):
-		exibe na tela o ponto de corte.
--> Caso negativo:
-	*Problema não tem solução: exibe: -.-
-	*Se a area procurada ou o numero de tiras forem iguais a zero, não exibe nada
-
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n) + (O(log(n)*O(n)))
-*/
 #include <iostream>
 #include <math.h>
 

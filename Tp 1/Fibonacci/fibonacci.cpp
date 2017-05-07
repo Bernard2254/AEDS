@@ -1,17 +1,3 @@
-/* ALUNOS: ∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1029 - Fibonacci, How Many Calls?
-∗
-∗ PARADIGMA: Recursão
-∗
-∗ DESCRICAO DA SOLUCAO:
-calcula fibonacci iterativamente, depois 
-chama uma função recursiva que apenas conta 
-quantos chamados teriam ocorrido se fibonacci fosse recursivo.
-
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n) */
 #include <iostream>
 #include <stdio.h>
 

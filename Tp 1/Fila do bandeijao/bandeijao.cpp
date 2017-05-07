@@ -1,17 +1,3 @@
-/* ALUNOS: ∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1524 - Cafeteria Queue
-∗
-∗ PARADIGMA: Guloso
-∗
-∗ DESCRICAO DA SOLUCAO:
-enquanto lê a entrada salva a distancia entre elas em outro vetor.
-percorre o vetor de distancias e vai pegando as menores distancias possiveis e 
-somando a distancias que foram pegadas, a cada soma dessa um grupo é formado. 
-quando são feitas junções sufientes para formar a quantidade de grupos desejada encerra
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n2) */
 #include <iostream>
 
 using namespace std;

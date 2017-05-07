@@ -1,15 +1,3 @@
-/* ALUNOS: ∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1661 - Wine Trading in Gergovia
-∗
-∗ PARADIGMA: Guloso
-∗
-∗ DESCRICAO DA SOLUCAO:
-em um for tem quem vende e no outro quem compra. percorre os dis e vai vendendo enquanto computa o trabalho
-
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n2) */
 #include <iostream>
 
 using namespace std;

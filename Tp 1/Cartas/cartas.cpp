@@ -1,15 +1,3 @@
-/* ALUNOS: ∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 1104 - Exchanging Cards
-∗
-∗ PARADIGMA: sem paradigma
-∗
-∗ DESCRICAO DA SOLUCAO:
-ve quantas cartas unicas diferentes entre as duas pessoas e retorna esse valor
-
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n2) */
 #include <iostream>
 
 using namespace std;

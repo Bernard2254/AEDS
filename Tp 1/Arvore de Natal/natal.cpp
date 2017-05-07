@@ -1,20 +1,3 @@
-/* ALUNOS:
-∗ 201612040187: Bernard Menezes Moreira da Costa
-∗ 201612040233: Thiago Figueiredo Costa
-∗
-∗ PROBLEMA: 2026 − Árvore de Natal
-∗
-∗ PARADIGMA: Guloso
-∗
-∗ DESCRICAO DA SOLUCAO: 
-Assume que o maior valor de enfeites a serem colocados é o do pacote que possui o maior numero de enfeites, sava 
-na variável soma1. Ordena vetor de acordo com a quantidade de enfeites (do maior para o menor), soma o máximo de 
-elementos possíveisvsem estourar o limite de peso e salva na variável soma. Ordena os dados de acordo com os pesos
-(do menor para o maior), soma o maior numero de enfeites possíveis sem estourar o limite de peso e salva em soma2.
-Compara qual variável tem o maior valor, soma1, soma ou soma2, a resposta será o maior valor entre os três.
-∗
-∗ ORDEM DE COMPLEXIDADE: O(n²)
-*/
 #include <iostream>
 #include <math.h>
 
