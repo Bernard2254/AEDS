@@ -1,0 +1,7 @@
+Tarefa Aula 08
+
+Leia, implemente (Não copie e cole! Não se engane!) e execute passo a passo:
+1 - O algoritmo de ordenção Inserção.
+2 - O algoritmo de ordenção QuickSort, selecionando como pivô o elemento do centro da partição.
+3 - O algoritmo de ordenção QuickSort, selecionando como pivô a mediana entre três elementos da partição capturados aleatoriamente.
+4 - O algoritmo de ordenção QuickSort, da tarefa 3, combinado com o Inserção, da tarefa 1. Quando o tamanho da partição for menor ou igual a 40 passe o trabalho para o Inserção.
