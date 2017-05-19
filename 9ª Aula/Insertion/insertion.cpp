@@ -1,7 +1,7 @@
 #include <iostream>
 #include <time.h> 
 
-#define SIZE 10
+#define SIZE 100
 
 using namespace std;
 
