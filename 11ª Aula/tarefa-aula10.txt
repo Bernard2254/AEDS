@@ -1,0 +1,3 @@
+Tarefa Aula 10
+
+Implemente a estrutura de dados árvore binária com as operações de pesquisa, inserção, remoção, impressão e balanceamento. A chave de registro deve ser apenas uma cadeia de caracteres. Crie uma aplicação que demonstre o uso de todas as operações. Se terminar tudo durante a aula, avise o professor que o mesmo verificará a corretude do mesmo.
