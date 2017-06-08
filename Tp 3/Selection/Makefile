@@ -1,4 +1,4 @@
-SOURCE = insertion
+SOURCE = selection
 
 all: compile link run destroy
 
