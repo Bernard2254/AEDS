@@ -177,9 +177,9 @@ public:
 			int i=e, j=d;
 			tipo pivo = vetor[(e + d)/2];
 			while(i<j){
-				while(vetor[i]<pivo && i<TAM)
+				while(vetor[i]<pivo)
 					i++;
-				while(vetor[j]>pivo && j>=0)
+				while(vetor[j]>pivo)
 					j--;
 				if(i<j){
 					int aux = vetor[j];
@@ -189,9 +189,9 @@ public:
 				}
 			}
 			
-			if(j-e>1)
+			if(e<j)
 				quickSort(e, j);
-			if(d-i>1)
+			if(d>i)
 				quickSort(i, d);
 		}
 	}
