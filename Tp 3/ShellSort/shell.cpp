@@ -8,9 +8,9 @@ int main(int argc, char** argv){
 		size=atoi(argv[1]);
 	Ordena teste(size);
 	teste.tempo.inicia();
-	teste.selection(0);
+	teste.shellSort();
 	teste.confere();
-	teste.tempo.finaliza("Selection", teste.TAM);
+	teste.tempo.finaliza("ShellSort", teste.TAM);
 
 	return 0;
 }

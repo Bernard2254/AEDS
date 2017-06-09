@@ -2,6 +2,8 @@ SOURCE = insertion
 
 all: compile link run destroy
 
+bash: compile link
+
 compile:
 	g++ $(SOURCE).cpp -c -std=c++11 -Wall
 link:
