@@ -89,9 +89,9 @@ public:
 
 	void selection(){
 		int num, index, inicio;
-		for(int j=0; j<TAM-1; j++){
+		for(int j=0; j<TAM; j++){
 			num = vetor[j];
-			inicio=j;
+			inicio=index=j;
 			for(int i=j+1; i<TAM; i++){
 				if(vetor[i]<num){
 					num = vetor[i];
