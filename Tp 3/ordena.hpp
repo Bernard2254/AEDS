@@ -87,18 +87,20 @@ public:
 		}
 	}
 
-	void selection(int inicio){
-		int num = vetor[inicio], index = inicio;
-		for(int i=inicio+1; i<TAM; i++){
-			if(vetor[i]<num){
-				num = vetor[i];
-				index = i;
+	void selection(){
+		int num, index, inicio;
+		for(int j=0; j<TAM-1; j++){
+			num = vetor[j];
+			inicio=j;
+			for(int i=j+1; i<TAM; i++){
+				if(vetor[i]<num){
+					num = vetor[i];
+					index = i;
+				}
 			}
+			vetor[index] = vetor[inicio];
+			vetor[inicio] = num;
 		}
-		vetor[index] = vetor[inicio];
-		vetor[inicio] = num;
-		if(inicio!=TAM-2)
-			selection(inicio+1);
 	}
 
 	void quickSort(int e, int d){
