@@ -1,6 +1,8 @@
 #!/bin/bash
 STR="resultados.csv"
-ARRAY=(10 20 50 100 200 500 1000 5000)
+ARRAY=(1000 2000 5000 10000 50000 100000 500000)
+TAM=7
+NUM=30
 if [ -e $STR ]; then
 	rm -rf $STR;
 fi
@@ -19,56 +21,62 @@ cd ../QuickParcial;
 cd ../../Insertion;
 	make bash;
 cd ../
-for(( j=0; j<8; j++)) do
 	cd ShellSort/;
-	for(( i=0;i<30;i++ )) do
-		./shell ${ARRAY[j]}>> ../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./shell ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Shell - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./shell *.o;
-	fi
 	cd ../MergeSort;
-	for(( i=0;i<30;i++ )) do
-	        ./mergesort ${ARRAY[j]} >> ../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./mergesort ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Merge - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./mergesort *.o;
-	fi
 	cd ../Selection;
-	for(( i=0;i<30;i++ )) do 
-	        ./selection ${ARRAY[j]}>> ../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./selection ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Selection - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./selection *.o;
-	fi
 	cd ../QuickSort/Pivo_central;
-	for(( i=0;i<30;i++ )) do 
-	        ./quick ${ARRAY[j]}>> ../../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./quick ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Quick 1 - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./quick *.o;
-	fi
 	cd ../Pivo_mediana;
-	for(( i=0;i<30;i++ )) do 
-	        ./quick ${ARRAY[j]}>> ../../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./quick ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Quick 1 - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./quick *.o;
-	fi
 	cd ../QuickParcial;
-	for(( i=0;i<30;i++ )) do 
-	        ./quick ${ARRAY[j]}>> ../../$STR ;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./quick ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Quick 1 - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./quick *.o;
-	fi
 	cd ../../Insertion;
-	for(( i=0;i<30;i++ )) do 
-	        ./insertion ${ARRAY[j]}>> ../$STR;
+	for(( j=0; j<$TAM; j++)) do
+		for(( i=0;i<$NUM;i++ )) do
+			./insertion ${ARRAY[j]}>> ../$STR;
+		done
+		echo "Insertion - ${ARRAY[j]} - OK"
 	done
-	if [ $j = 7 ]; then
 		rm -rf ./insertion *.o;
-	fi
 	cd ../
 done
 

@@ -197,26 +197,21 @@ public:
 	}
 
 	void shellSort(){
-		int passo;
-		for(passo = TAM/2; passo>0; passo=passo/2)
-			for(int i=0; i<TAM; i+=passo){
-				if(i+passo>=TAM)
-					break;
-				else if(vetor[i] > vetor[i+passo]){
-					int aux = vetor[i];
-					vetor[i] = vetor[i+passo];
-					vetor[i+passo] = aux;
-					aux = i-passo;
-					while(aux>=0){
-						if(vetor[aux]> vetor[aux+passo]){
-							int aux2 = vetor[aux];
-							vetor[aux] = vetor[aux+passo];
-							vetor[aux+passo] = aux2;
-						}
-						aux -=passo;
-					}
+		int passo=1;
+		do {
+			passo = 3*passo +1;
+		}while(passo<TAM);
+		for(passo = passo/3; passo>0; passo=passo/3){
+			for(int i=0; i+passo<TAM; i++){
+				int aux=i;
+				while(aux>=0 && vetor[aux] > vetor[aux+passo]){
+					int aux2 = vetor[aux];
+					vetor[aux] = vetor[aux+passo];
+					vetor[aux+passo] = aux2;
+					aux-=passo;	
 				}
 			}
+		}
 	}
 
 	void confere(){

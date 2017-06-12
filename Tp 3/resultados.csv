@@ -1,1680 +1,579 @@
-ShellSort,10,0.00384
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.00512
-ShellSort,10,0.003328
-ShellSort,10,0.003072
-ShellSort,10,0.004352
-ShellSort,10,0.002816
-ShellSort,10,0.003328
-ShellSort,10,0.003328
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.002816
-ShellSort,10,0.003072
-ShellSort,10,0.004608
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.004608
-ShellSort,10,0.002816
-ShellSort,10,0.003072
-ShellSort,10,0.002816
-ShellSort,10,0.002816
-ShellSort,10,0.002816
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.003328
-ShellSort,10,0.003072
-ShellSort,10,0.003072
-ShellSort,10,0.004864
-MergeSort,10,0.004096
-MergeSort,10,0.009216
-MergeSort,10,0.006144
-MergeSort,10,0.005888
-MergeSort,10,0.006144
-MergeSort,10,0.005632
-MergeSort,10,0.005632
-MergeSort,10,0.005888
-MergeSort,10,0.005632
-MergeSort,10,0.005888
-MergeSort,10,0.005632
-MergeSort,10,0.008192
-MergeSort,10,0.006656
-MergeSort,10,0.005632
-MergeSort,10,0.006144
-MergeSort,10,0.008192
-MergeSort,10,0.005888
-MergeSort,10,0.007424
-MergeSort,10,0.00768
-MergeSort,10,0.005888
-MergeSort,10,0.005888
-MergeSort,10,0.008192
-MergeSort,10,0.005376
-MergeSort,10,0.005376
-MergeSort,10,0.005632
-MergeSort,10,0.00512
-MergeSort,10,0.005888
-MergeSort,10,0.004096
-MergeSort,10,0.004352
-MergeSort,10,0.005888
-Selection,10,0.003072
-Selection,10,0.003072
-Selection,10,0.002816
-Selection,10,0.003072
-Selection,10,0.00512
-Selection,10,0.004864
-Selection,10,0.007424
-Selection,10,0.004352
-Selection,10,0.003584
-Selection,10,0.003072
-Selection,10,0.004864
-Selection,10,0.004608
-Selection,10,0.004608
-Selection,10,0.004608
-Selection,10,0.006912
-Selection,10,0.0064
-Selection,10,0.004608
-Selection,10,0.003584
-Selection,10,0.003584
-Selection,10,0.003584
-Selection,10,0.003328
-Selection,10,0.003584
-Selection,10,0.00512
-Selection,10,0.004608
-Selection,10,0.003328
-Selection,10,0.006656
-Selection,10,0.009728
-Selection,10,0.009728
-Selection,10,0.0064
-Selection,10,0.006656
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.006656
-QuickSort pivô central,10,0.006656
-QuickSort pivô central,10,0.006912
-QuickSort pivô central,10,0.0064
-QuickSort pivô central,10,0.006144
-QuickSort pivô central,10,0.009216
-QuickSort pivô central,10,0.0064
-QuickSort pivô central,10,0.009216
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.005632
-QuickSort pivô central,10,0.006144
-QuickSort pivô central,10,0.009216
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.005632
-QuickSort pivô central,10,0.00896
-QuickSort pivô central,10,0.005632
-QuickSort pivô central,10,0.0064
-QuickSort pivô central,10,0.005376
-QuickSort pivô central,10,0.006656
-QuickSort pivô central,10,0.0064
-QuickSort pivô central,10,0.009728
-QuickSort pivô central,10,0.006656
-QuickSort pivô central,10,0.004608
-QuickSort pivô central,10,0.0064
-QuickSort pivô central,10,0.006656
-QuickSort pivô central,10,0.005888
-QuickSort pivô central,10,0.006144
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.006144
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.009728
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.006656
-QuickSort pivô mediana,10,0.006144
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.00768
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.005376
-QuickSort pivô mediana,10,0.006144
-QuickSort pivô mediana,10,0.006144
-QuickSort pivô mediana,10,0.009216
-QuickSort pivô mediana,10,0.0064
-QuickSort pivô mediana,10,0.008704
-QuickSort pivô mediana,10,0.006912
-QuickSort pivô mediana,10,0.005376
-QuickSort pivô mediana,10,0.006144
-QuickSort pivô mediana,10,0.00512
-QuickSort pivô mediana,10,0.006656
-QuickSort pivô mediana,10,0.005632
-QuickSort pivô mediana,10,0.005632
-QuickSort pivô mediana,10,0.008448
-QuickSort pivô mediana,10,0.008192
-QuickSort pivô mediana,10,0.00768
-QuickSort pivô mediana,10,0.005632
-QuickSort pivô mediana,10,0.005632
-QuickSort pivô mediana,10,0.005376
-QuickSort pivô mediana,10,0.00768
-QuickSort parcial,10,0.005376
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.00768
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004608
-QuickSort parcial,10,0.007424
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.007424
-QuickSort parcial,10,0.00768
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.004608
-QuickSort parcial,10,0.004608
-QuickSort parcial,10,0.007168
-QuickSort parcial,10,0.0064
-QuickSort parcial,10,0.004608
-QuickSort parcial,10,0.004608
-QuickSort parcial,10,0.00512
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004864
-QuickSort parcial,10,0.004352
-QuickSort parcial,10,0.006912
-Insertion,10,0.004608
-Insertion,10,0.004608
-Insertion,10,0.006912
-Insertion,10,0.004864
-Insertion,10,0.004352
-Insertion,10,0.004352
-Insertion,10,0.004608
-Insertion,10,0.005376
-Insertion,10,0.005376
-Insertion,10,0.005376
-Insertion,10,0.00512
-Insertion,10,0.00512
-Insertion,10,0.005632
-Insertion,10,0.005376
-Insertion,10,0.005376
-Insertion,10,0.004608
-Insertion,10,0.004864
-Insertion,10,0.00512
-Insertion,10,0.0064
-Insertion,10,0.00512
-Insertion,10,0.005376
-Insertion,10,0.00512
-Insertion,10,0.00512
-Insertion,10,0.004864
-Insertion,10,0.007424
-Insertion,10,0.004864
-Insertion,10,0.004608
-Insertion,10,0.004864
-Insertion,10,0.006144
-Insertion,10,0.004864
-ShellSort,20,0.00896
-ShellSort,20,0.00768
-ShellSort,20,0.011008
-ShellSort,20,0.007168
-ShellSort,20,0.006912
-ShellSort,20,0.00768
-ShellSort,20,0.00768
-ShellSort,20,0.007424
-ShellSort,20,0.009984
-ShellSort,20,0.010496
-ShellSort,20,0.007168
-ShellSort,20,0.010496
-ShellSort,20,0.006912
-ShellSort,20,0.007168
-ShellSort,20,0.007168
-ShellSort,20,0.007424
-ShellSort,20,0.007424
-ShellSort,20,0.00768
-ShellSort,20,0.007168
-ShellSort,20,0.009216
-ShellSort,20,0.00768
-ShellSort,20,0.00768
-ShellSort,20,0.007424
-ShellSort,20,0.009472
-ShellSort,20,0.006912
-ShellSort,20,0.006912
-ShellSort,20,0.006912
-ShellSort,20,0.0064
-ShellSort,20,0.006912
-ShellSort,20,0.006912
-MergeSort,20,0.008704
-MergeSort,20,0.009216
-MergeSort,20,0.009472
-MergeSort,20,0.008704
-MergeSort,20,0.011264
-MergeSort,20,0.009472
-MergeSort,20,0.009216
-MergeSort,20,0.009472
-MergeSort,20,0.009216
-MergeSort,20,0.00896
-MergeSort,20,0.011776
-MergeSort,20,0.008192
-MergeSort,20,0.00896
-MergeSort,20,0.036352
-MergeSort,20,0.011776
-MergeSort,20,0.008448
-MergeSort,20,0.008448
-MergeSort,20,0.008448
-MergeSort,20,0.00896
-MergeSort,20,0.00896
-MergeSort,20,0.010496
-MergeSort,20,0.011008
-MergeSort,20,0.008192
-MergeSort,20,0.007936
-MergeSort,20,0.008192
-MergeSort,20,0.008448
-MergeSort,20,0.008448
-MergeSort,20,0.008704
-MergeSort,20,0.008704
-MergeSort,20,0.008192
-Selection,20,0.005632
-Selection,20,0.007936
-Selection,20,0.006144
-Selection,20,0.005888
-Selection,20,0.005632
-Selection,20,0.005632
-Selection,20,0.005376
-Selection,20,0.005632
-Selection,20,0.00768
-Selection,20,0.007936
-Selection,20,0.00768
-Selection,20,0.005888
-Selection,20,0.005888
-Selection,20,0.006912
-Selection,20,0.007936
-Selection,20,0.008448
-Selection,20,0.008192
-Selection,20,0.008704
-Selection,20,0.011264
-Selection,20,0.008192
-Selection,20,0.008192
-Selection,20,0.007936
-Selection,20,0.010752
-Selection,20,0.00768
-Selection,20,0.006144
-Selection,20,0.005888
-Selection,20,0.006144
-Selection,20,0.005888
-Selection,20,0.008192
-Selection,20,0.006144
-QuickSort pivô central,20,0.008192
-QuickSort pivô central,20,0.008192
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.006144
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.008448
-QuickSort pivô central,20,0.007936
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.006144
-QuickSort pivô central,20,0.005376
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.006144
-QuickSort pivô central,20,0.007936
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.005632
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.006144
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô central,20,0.005888
-QuickSort pivô mediana,20,0.006144
-QuickSort pivô mediana,20,0.008448
-QuickSort pivô mediana,20,0.0064
-QuickSort pivô mediana,20,0.0064
-QuickSort pivô mediana,20,0.005888
-QuickSort pivô mediana,20,0.005888
-QuickSort pivô mediana,20,0.008192
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.008448
-QuickSort pivô mediana,20,0.008448
-QuickSort pivô mediana,20,0.006144
-QuickSort pivô mediana,20,0.008192
-QuickSort pivô mediana,20,0.008448
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.007424
-QuickSort pivô mediana,20,0.00768
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.00768
-QuickSort pivô mediana,20,0.006656
-QuickSort pivô mediana,20,0.007936
-QuickSort pivô mediana,20,0.007168
-QuickSort pivô mediana,20,0.006912
-QuickSort pivô mediana,20,0.007424
-QuickSort pivô mediana,20,0.010496
-QuickSort pivô mediana,20,0.010496
-QuickSort pivô mediana,20,0.00768
-QuickSort pivô mediana,20,0.007424
-QuickSort pivô mediana,20,0.006912
-QuickSort parcial,20,0.0064
-QuickSort parcial,20,0.008448
-QuickSort parcial,20,0.008704
-QuickSort parcial,20,0.005632
-QuickSort parcial,20,0.005632
-QuickSort parcial,20,0.005888
-QuickSort parcial,20,0.007424
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.01024
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.006656
-QuickSort parcial,20,0.009472
-QuickSort parcial,20,0.009472
-QuickSort parcial,20,0.006656
-QuickSort parcial,20,0.009728
-QuickSort parcial,20,0.006656
-QuickSort parcial,20,0.006912
-QuickSort parcial,20,0.007168
-QuickSort parcial,20,0.006656
-QuickSort parcial,20,0.006656
-QuickSort parcial,20,0.005888
-QuickSort parcial,20,0.005888
-QuickSort parcial,20,0.005888
-QuickSort parcial,20,0.005376
-QuickSort parcial,20,0.008448
-QuickSort parcial,20,0.005888
-Insertion,20,0.008192
-Insertion,20,0.007936
-Insertion,20,0.006912
-Insertion,20,0.01024
-Insertion,20,0.007168
-Insertion,20,0.006912
-Insertion,20,0.007424
-Insertion,20,0.01024
-Insertion,20,0.009984
-Insertion,20,0.0064
-Insertion,20,0.006144
-Insertion,20,0.006912
-Insertion,20,0.009728
-Insertion,20,0.006656
-Insertion,20,0.008448
-Insertion,20,0.006912
-Insertion,20,0.005888
-Insertion,20,0.0064
-Insertion,20,0.0064
-Insertion,20,0.005888
-Insertion,20,0.005888
-Insertion,20,0.00896
-Insertion,20,0.0064
-Insertion,20,0.0064
-Insertion,20,0.008192
-Insertion,20,0.005376
-Insertion,20,0.009216
-Insertion,20,0.008192
-Insertion,20,0.008192
-Insertion,20,0.005376
-ShellSort,50,0.015104
-ShellSort,50,0.01664
-ShellSort,50,0.018944
-ShellSort,50,0.016128
-ShellSort,50,0.01664
-ShellSort,50,0.0192
-ShellSort,50,0.017408
-ShellSort,50,0.01792
-ShellSort,50,0.016896
-ShellSort,50,0.01664
-ShellSort,50,0.014848
-ShellSort,50,0.016384
-ShellSort,50,0.01664
-ShellSort,50,0.01664
-ShellSort,50,0.01664
-ShellSort,50,0.017152
-ShellSort,50,0.016384
-ShellSort,50,0.015872
-ShellSort,50,0.017408
-ShellSort,50,0.020736
-ShellSort,50,0.024832
-ShellSort,50,0.018176
-ShellSort,50,0.017152
-ShellSort,50,0.018176
-ShellSort,50,0.020992
-ShellSort,50,0.018944
-ShellSort,50,0.018432
-ShellSort,50,0.017152
-ShellSort,50,0.019456
-ShellSort,50,0.017408
-MergeSort,50,0.02048
-MergeSort,50,0.019968
-MergeSort,50,0.016896
-MergeSort,50,0.020224
-MergeSort,50,0.017408
-MergeSort,50,0.01664
-MergeSort,50,0.01664
-MergeSort,50,0.018944
-MergeSort,50,0.018688
-MergeSort,50,0.015872
-MergeSort,50,0.019712
-MergeSort,50,0.016384
-MergeSort,50,0.016384
-MergeSort,50,0.016384
-MergeSort,50,0.0192
-MergeSort,50,0.0192
-MergeSort,50,0.01536
-MergeSort,50,0.015872
-MergeSort,50,0.016128
-MergeSort,50,0.01664
-MergeSort,50,0.050688
-MergeSort,50,0.020992
-MergeSort,50,0.02048
-MergeSort,50,0.031744
-MergeSort,50,0.015616
-MergeSort,50,0.02048
-MergeSort,50,0.02048
-MergeSort,50,0.015872
-MergeSort,50,0.018432
-MergeSort,50,0.015872
-Selection,50,0.012032
-Selection,50,0.014848
-Selection,50,0.012544
-Selection,50,0.012544
-Selection,50,0.0128
-Selection,50,0.012544
-Selection,50,0.01536
-Selection,50,0.012544
-Selection,50,0.013568
-Selection,50,0.012544
-Selection,50,0.016384
-Selection,50,0.019712
-Selection,50,0.016128
-Selection,50,0.015872
-Selection,50,0.016128
-Selection,50,0.016384
-Selection,50,0.018944
-Selection,50,0.014848
-Selection,50,0.017408
-Selection,50,0.01536
-Selection,50,0.01664
-Selection,50,0.015616
-Selection,50,0.01664
-Selection,50,0.014848
-Selection,50,0.01536
-Selection,50,0.013312
-Selection,50,0.013312
-Selection,50,0.015872
-Selection,50,0.016128
-Selection,50,0.018944
-QuickSort pivô central,50,0.013056
-QuickSort pivô central,50,0.012032
-QuickSort pivô central,50,0.012544
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.010496
-QuickSort pivô central,50,0.010496
-QuickSort pivô central,50,0.013056
-QuickSort pivô central,50,0.010496
-QuickSort pivô central,50,0.009472
-QuickSort pivô central,50,0.009984
-QuickSort pivô central,50,0.009984
-QuickSort pivô central,50,0.009984
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.012288
-QuickSort pivô central,50,0.013056
-QuickSort pivô central,50,0.025856
-QuickSort pivô central,50,0.012544
-QuickSort pivô central,50,0.009728
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.010496
-QuickSort pivô central,50,0.009984
-QuickSort pivô central,50,0.009984
-QuickSort pivô central,50,0.009472
-QuickSort pivô central,50,0.009728
-QuickSort pivô central,50,0.009728
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.01024
-QuickSort pivô central,50,0.01024
-QuickSort pivô mediana,50,0.010752
-QuickSort pivô mediana,50,0.01024
-QuickSort pivô mediana,50,0.009984
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.012032
-QuickSort pivô mediana,50,0.009216
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.009472
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.011776
-QuickSort pivô mediana,50,0.01024
-QuickSort pivô mediana,50,0.013568
-QuickSort pivô mediana,50,0.0128
-QuickSort pivô mediana,50,0.013568
-QuickSort pivô mediana,50,0.013312
-QuickSort pivô mediana,50,0.016896
-QuickSort pivô mediana,50,0.0128
-QuickSort pivô mediana,50,0.012032
-QuickSort pivô mediana,50,0.011776
-QuickSort pivô mediana,50,0.012544
-QuickSort pivô mediana,50,0.009728
-QuickSort pivô mediana,50,0.012288
-QuickSort pivô mediana,50,0.012032
-QuickSort pivô mediana,50,0.01536
-QuickSort pivô mediana,50,0.012032
-QuickSort pivô mediana,50,0.011776
-QuickSort parcial,50,0.009984
-QuickSort parcial,50,0.01024
-QuickSort parcial,50,0.009984
-QuickSort parcial,50,0.009216
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008448
-QuickSort parcial,50,0.00896
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.009472
-QuickSort parcial,50,0.008192
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.010752
-QuickSort parcial,50,0.008448
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.007936
-QuickSort parcial,50,0.00768
-QuickSort parcial,50,0.010496
-QuickSort parcial,50,0.008704
-QuickSort parcial,50,0.01024
-QuickSort parcial,50,0.011008
-QuickSort parcial,50,0.01024
-QuickSort parcial,50,0.008448
-QuickSort parcial,50,0.008448
-QuickSort parcial,50,0.007936
-QuickSort parcial,50,0.008192
-Insertion,50,0.00768
-Insertion,50,0.007936
-Insertion,50,0.008192
-Insertion,50,0.007936
-Insertion,50,0.008448
-Insertion,50,0.008192
-Insertion,50,0.008192
-Insertion,50,0.007168
-Insertion,50,0.019712
-Insertion,50,0.008448
-Insertion,50,0.007936
-Insertion,50,0.011008
-Insertion,50,0.008192
-Insertion,50,0.008704
-Insertion,50,0.009984
-Insertion,50,0.007936
-Insertion,50,0.008192
-Insertion,50,0.007936
-Insertion,50,0.008192
-Insertion,50,0.010496
-Insertion,50,0.00768
-Insertion,50,0.00768
-Insertion,50,0.007936
-Insertion,50,0.007936
-Insertion,50,0.007936
-Insertion,50,0.008192
-Insertion,50,0.009984
-Insertion,50,0.007168
-Insertion,50,0.007424
-Insertion,50,0.009984
-ShellSort,100,0.038912
-ShellSort,100,0.040704
-ShellSort,100,0.0576
-ShellSort,100,0.041216
-ShellSort,100,0.039936
-ShellSort,100,0.050432
-ShellSort,100,0.049664
-ShellSort,100,0.053504
-ShellSort,100,0.049664
-ShellSort,100,0.050176
-ShellSort,100,0.046848
-ShellSort,100,0.050944
-ShellSort,100,0.046592
-ShellSort,100,0.045056
-ShellSort,100,0.0448
-ShellSort,100,0.046848
-ShellSort,100,0.044288
-ShellSort,100,0.049408
-ShellSort,100,0.04224
-ShellSort,100,0.056576
-ShellSort,100,0.056832
-ShellSort,100,0.055808
-ShellSort,100,0.055552
-ShellSort,100,0.059136
-ShellSort,100,0.058112
-ShellSort,100,0.061184
-ShellSort,100,0.056064
-ShellSort,100,0.054784
-ShellSort,100,0.059648
-ShellSort,100,0.058368
-MergeSort,100,0.032768
-MergeSort,100,0.032256
-MergeSort,100,0.031744
-MergeSort,100,0.029184
-MergeSort,100,0.032768
-MergeSort,100,0.030464
-MergeSort,100,0.03328
-MergeSort,100,0.03072
-MergeSort,100,0.029952
-MergeSort,100,0.029696
-MergeSort,100,0.030464
-MergeSort,100,0.031744
-MergeSort,100,0.028928
-MergeSort,100,0.030976
-MergeSort,100,0.028928
-MergeSort,100,0.030976
-MergeSort,100,0.02944
-MergeSort,100,0.029184
-MergeSort,100,0.03072
-MergeSort,100,0.027648
-MergeSort,100,0.027392
-MergeSort,100,0.027648
-MergeSort,100,0.027648
-MergeSort,100,0.027136
-MergeSort,100,0.029184
-MergeSort,100,0.027136
-MergeSort,100,0.030464
-MergeSort,100,0.027648
-MergeSort,100,0.038656
-MergeSort,100,0.04096
-Selection,100,0.03968
-Selection,100,0.03968
-Selection,100,0.038144
-Selection,100,0.031744
-Selection,100,0.03072
-Selection,100,0.03072
-Selection,100,0.033792
-Selection,100,0.037888
-Selection,100,0.0384
-Selection,100,0.037376
-Selection,100,0.036864
-Selection,100,0.034048
-Selection,100,0.032768
-Selection,100,0.035584
-Selection,100,0.033792
-Selection,100,0.033792
-Selection,100,0.03328
-Selection,100,0.036096
-Selection,100,0.032
-Selection,100,0.032
-Selection,100,0.030464
-Selection,100,0.028672
-Selection,100,0.032
-Selection,100,0.029696
-Selection,100,0.02944
-Selection,100,0.029184
-Selection,100,0.028672
-Selection,100,0.028928
-Selection,100,0.028672
-Selection,100,0.02816
-QuickSort pivô central,100,0.019968
-QuickSort pivô central,100,0.01536
-QuickSort pivô central,100,0.015104
-QuickSort pivô central,100,0.015104
-QuickSort pivô central,100,0.014336
-QuickSort pivô central,100,0.014848
-QuickSort pivô central,100,0.016384
-QuickSort pivô central,100,0.013824
-QuickSort pivô central,100,0.014848
-QuickSort pivô central,100,0.014336
-QuickSort pivô central,100,0.014592
-QuickSort pivô central,100,0.015872
-QuickSort pivô central,100,0.014336
-QuickSort pivô central,100,0.01408
-QuickSort pivô central,100,0.013824
-QuickSort pivô central,100,0.012544
-QuickSort pivô central,100,0.014848
-QuickSort pivô central,100,0.013824
-QuickSort pivô central,100,0.014592
-QuickSort pivô central,100,0.013312
-QuickSort pivô central,100,0.015872
-QuickSort pivô central,100,0.013568
-QuickSort pivô central,100,0.013056
-QuickSort pivô central,100,0.013568
-QuickSort pivô central,100,0.013056
-QuickSort pivô central,100,0.013824
-QuickSort pivô central,100,0.015872
-QuickSort pivô central,100,0.013056
-QuickSort pivô central,100,0.013312
-QuickSort pivô central,100,0.013056
-QuickSort pivô mediana,100,0.013568
-QuickSort pivô mediana,100,0.013056
-QuickSort pivô mediana,100,0.013568
-QuickSort pivô mediana,100,0.013824
-QuickSort pivô mediana,100,0.0128
-QuickSort pivô mediana,100,0.0128
-QuickSort pivô mediana,100,0.013568
-QuickSort pivô mediana,100,0.013056
-QuickSort pivô mediana,100,0.013056
-QuickSort pivô mediana,100,0.013056
-QuickSort pivô mediana,100,0.012544
-QuickSort pivô mediana,100,0.012288
-QuickSort pivô mediana,100,0.012544
-QuickSort pivô mediana,100,0.0128
-QuickSort pivô mediana,100,0.013056
-QuickSort pivô mediana,100,0.012544
-QuickSort pivô mediana,100,0.014336
-QuickSort pivô mediana,100,0.014592
-QuickSort pivô mediana,100,0.011776
-QuickSort pivô mediana,100,0.013824
-QuickSort pivô mediana,100,0.014592
-QuickSort pivô mediana,100,0.013312
-QuickSort pivô mediana,100,0.013824
-QuickSort pivô mediana,100,0.011776
-QuickSort pivô mediana,100,0.012032
-QuickSort pivô mediana,100,0.012032
-QuickSort pivô mediana,100,0.0128
-QuickSort pivô mediana,100,0.013568
-QuickSort pivô mediana,100,0.013568
-QuickSort pivô mediana,100,0.012288
-QuickSort parcial,100,0.012288
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.013312
-QuickSort parcial,100,0.012032
-QuickSort parcial,100,0.011264
-QuickSort parcial,100,0.014592
-QuickSort parcial,100,0.029952
-QuickSort parcial,100,0.027136
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.013824
-QuickSort parcial,100,0.012032
-QuickSort parcial,100,0.0128
-QuickSort parcial,100,0.011776
-QuickSort parcial,100,0.011264
-QuickSort parcial,100,0.011264
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.011776
-QuickSort parcial,100,0.013824
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.012288
-QuickSort parcial,100,0.011776
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.01408
-QuickSort parcial,100,0.012032
-QuickSort parcial,100,0.0128
-QuickSort parcial,100,0.01152
-QuickSort parcial,100,0.013568
-QuickSort parcial,100,0.012032
-QuickSort parcial,100,0.011264
-Insertion,100,0.013056
-Insertion,100,0.013824
-Insertion,100,0.013312
-Insertion,100,0.013056
-Insertion,100,0.012544
-Insertion,100,0.012288
-Insertion,100,0.012544
-Insertion,100,0.010752
-Insertion,100,0.012288
-Insertion,100,0.014336
-Insertion,100,0.011264
-Insertion,100,0.011264
-Insertion,100,0.014592
-Insertion,100,0.0128
-Insertion,100,0.012544
-Insertion,100,0.0128
-Insertion,100,0.011776
-Insertion,100,0.0128
-Insertion,100,0.011264
-Insertion,100,0.012032
-Insertion,100,0.013056
-Insertion,100,0.012544
-Insertion,100,0.012288
-Insertion,100,0.014336
-Insertion,100,0.011776
-Insertion,100,0.01152
-Insertion,100,0.013312
-Insertion,100,0.012032
-Insertion,100,0.012544
-Insertion,100,0.011264
-ShellSort,200,0.097536
-ShellSort,200,0.113408
-ShellSort,200,0.09216
-ShellSort,200,0.09856
-ShellSort,200,0.095232
-ShellSort,200,0.096512
-ShellSort,200,0.099072
-ShellSort,200,0.094464
-ShellSort,200,0.095488
-ShellSort,200,0.095232
-ShellSort,200,0.095744
-ShellSort,200,0.093184
-ShellSort,200,0.095744
-ShellSort,200,0.093952
-ShellSort,200,0.095232
-ShellSort,200,0.119808
-ShellSort,200,0.09344
-ShellSort,200,0.095488
-ShellSort,200,0.095232
-ShellSort,200,0.09088
-ShellSort,200,0.093184
-ShellSort,200,0.092416
-ShellSort,200,0.091904
-ShellSort,200,0.093696
-ShellSort,200,0.092672
-ShellSort,200,0.092928
-ShellSort,200,0.090112
-ShellSort,200,0.095488
-ShellSort,200,0.092416
-ShellSort,200,0.097536
-MergeSort,200,0.031232
-MergeSort,200,0.029952
-MergeSort,200,0.02944
-MergeSort,200,0.029696
-MergeSort,200,0.02944
-MergeSort,200,0.028672
-MergeSort,200,0.029184
-MergeSort,200,0.028416
-MergeSort,200,0.028672
-MergeSort,200,0.030208
-MergeSort,200,0.02816
-MergeSort,200,0.029184
-MergeSort,200,0.02944
-MergeSort,200,0.028928
-MergeSort,200,0.03072
-MergeSort,200,0.040448
-MergeSort,200,0.028416
-MergeSort,200,0.03072
-MergeSort,200,0.028672
-MergeSort,200,0.030464
-MergeSort,200,0.02944
-MergeSort,200,0.031232
-MergeSort,200,0.029184
-MergeSort,200,0.03072
-MergeSort,200,0.028416
-MergeSort,200,0.02816
-MergeSort,200,0.028672
-MergeSort,200,0.028672
-MergeSort,200,0.030208
-MergeSort,200,0.028416
-Selection,200,0.05888
-Selection,200,0.055552
-Selection,200,0.057088
-Selection,200,0.059136
-Selection,200,0.0576
-Selection,200,0.056576
-Selection,200,0.059904
-Selection,200,0.060416
-Selection,200,0.05888
-Selection,200,0.059392
-Selection,200,0.060672
-Selection,200,0.06784
-Selection,200,0.059392
-Selection,200,0.058112
-Selection,200,0.057088
-Selection,200,0.057088
-Selection,200,0.056576
-Selection,200,0.057088
-Selection,200,0.057344
-Selection,200,0.057088
-Selection,200,0.056576
-Selection,200,0.057088
-Selection,200,0.056832
-Selection,200,0.057088
-Selection,200,0.058368
-Selection,200,0.082944
-Selection,200,0.056832
-Selection,200,0.05632
-Selection,200,0.05632
-Selection,200,0.123648
-QuickSort pivô central,200,0.018432
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.017664
-QuickSort pivô central,200,0.017152
-QuickSort pivô central,200,0.017664
-QuickSort pivô central,200,0.017152
-QuickSort pivô central,200,0.017152
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.016896
-QuickSort pivô central,200,0.037376
-QuickSort pivô central,200,0.01792
-QuickSort pivô central,200,0.018176
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.04096
-QuickSort pivô central,200,0.017152
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.017664
-QuickSort pivô central,200,0.019456
-QuickSort pivô central,200,0.018176
-QuickSort pivô central,200,0.017408
-QuickSort pivô central,200,0.018176
-QuickSort pivô central,200,0.018688
-QuickSort pivô central,200,0.018944
-QuickSort pivô central,200,0.018944
-QuickSort pivô central,200,0.018688
-QuickSort pivô central,200,0.018176
-QuickSort pivô central,200,0.020224
-QuickSort pivô central,200,0.020736
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.030976
-QuickSort pivô mediana,200,0.0192
-QuickSort pivô mediana,200,0.020224
-QuickSort pivô mediana,200,0.019456
-QuickSort pivô mediana,200,0.018176
-QuickSort pivô mediana,200,0.018176
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.020224
-QuickSort pivô mediana,200,0.032
-QuickSort pivô mediana,200,0.018944
-QuickSort pivô mediana,200,0.018432
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.0192
-QuickSort pivô mediana,200,0.018432
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.018944
-QuickSort pivô mediana,200,0.018432
-QuickSort pivô mediana,200,0.018944
-QuickSort pivô mediana,200,0.018944
-QuickSort pivô mediana,200,0.018176
-QuickSort pivô mediana,200,0.018432
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.018688
-QuickSort pivô mediana,200,0.016896
-QuickSort pivô mediana,200,0.018176
-QuickSort pivô mediana,200,0.018176
-QuickSort pivô mediana,200,0.0192
-QuickSort pivô mediana,200,0.019712
-QuickSort pivô mediana,200,0.0192
-QuickSort parcial,200,0.018176
-QuickSort parcial,200,0.018432
-QuickSort parcial,200,0.018944
-QuickSort parcial,200,0.018432
-QuickSort parcial,200,0.019456
-QuickSort parcial,200,0.02304
-QuickSort parcial,200,0.019968
-QuickSort parcial,200,0.01792
-QuickSort parcial,200,0.018432
-QuickSort parcial,200,0.017408
-QuickSort parcial,200,0.017408
-QuickSort parcial,200,0.03584
-QuickSort parcial,200,0.030208
-QuickSort parcial,200,0.018176
-QuickSort parcial,200,0.030464
-QuickSort parcial,200,0.031232
-QuickSort parcial,200,0.029952
-QuickSort parcial,200,0.03328
-QuickSort parcial,200,0.033792
-QuickSort parcial,200,0.031488
-QuickSort parcial,200,0.028672
-QuickSort parcial,200,0.027904
-QuickSort parcial,200,0.030208
-QuickSort parcial,200,0.028416
-QuickSort parcial,200,0.029184
-QuickSort parcial,200,0.028416
-QuickSort parcial,200,0.018432
-QuickSort parcial,200,0.022016
-QuickSort parcial,200,0.018432
-QuickSort parcial,200,0.019712
-Insertion,200,0.03584
-Insertion,200,0.036864
-Insertion,200,0.036864
-Insertion,200,0.037888
-Insertion,200,0.038912
-Insertion,200,0.036864
-Insertion,200,0.040448
-Insertion,200,0.034304
-Insertion,200,0.038912
-Insertion,200,0.03968
-Insertion,200,0.03712
-Insertion,200,0.039168
-Insertion,200,0.037632
-Insertion,200,0.039424
-Insertion,200,0.037632
-Insertion,200,0.03968
-Insertion,200,0.039424
-Insertion,200,0.0384
-Insertion,200,0.04096
-Insertion,200,0.039168
-Insertion,200,0.037632
-Insertion,200,0.035584
-Insertion,200,0.037376
-Insertion,200,0.039424
-Insertion,200,0.038144
-Insertion,200,0.038144
-Insertion,200,0.03712
-Insertion,200,0.036864
-Insertion,200,0.03712
-Insertion,200,0.035072
-ShellSort,500,0.605952
-ShellSort,500,0.600576
-ShellSort,500,0.593664
-ShellSort,500,0.603136
-ShellSort,500,0.600832
-ShellSort,500,0.611328
-ShellSort,500,0.599552
-ShellSort,500,0.601344
-ShellSort,500,0.592128
-ShellSort,500,0.602112
-ShellSort,500,0.6016
-ShellSort,500,0.599552
-ShellSort,500,0.604416
-ShellSort,500,0.603136
-ShellSort,500,0.591616
-ShellSort,500,0.604672
-ShellSort,500,0.602112
-ShellSort,500,0.613376
-ShellSort,500,0.602624
-ShellSort,500,0.597248
-ShellSort,500,0.599296
-ShellSort,500,0.61056
-ShellSort,500,0.613888
-ShellSort,500,0.598784
-ShellSort,500,0.625152
-ShellSort,500,0.607744
-ShellSort,500,0.610816
-ShellSort,500,0.61312
-ShellSort,500,0.615424
-ShellSort,500,0.608256
-MergeSort,500,0.081152
-MergeSort,500,0.15488
-MergeSort,500,0.10752
-MergeSort,500,0.108032
-MergeSort,500,0.109312
-MergeSort,500,0.106752
-MergeSort,500,0.108032
-MergeSort,500,0.109056
-MergeSort,500,0.108288
-MergeSort,500,0.108032
-MergeSort,500,0.109056
-MergeSort,500,0.113152
-MergeSort,500,0.106496
-MergeSort,500,0.104448
-MergeSort,500,0.103168
-MergeSort,500,0.103936
-MergeSort,500,0.108544
-MergeSort,500,0.097792
-MergeSort,500,0.096256
-MergeSort,500,0.096768
-MergeSort,500,0.095744
-MergeSort,500,0.097024
-MergeSort,500,0.094976
-MergeSort,500,0.094464
-MergeSort,500,0.094976
-MergeSort,500,0.09472
-MergeSort,500,0.094208
-MergeSort,500,0.09472
-MergeSort,500,0.094976
-MergeSort,500,0.096256
-Selection,500,0.389376
-Selection,500,0.39296
-Selection,500,0.387328
-Selection,500,0.419584
-Selection,500,0.388608
-Selection,500,0.3904
-Selection,500,0.660992
-Selection,500,0.38912
-Selection,500,0.412928
-Selection,500,0.388096
-Selection,500,0.39168
-Selection,500,0.389376
-Selection,500,0.388096
-Selection,500,0.423936
-Selection,500,0.387584
-Selection,500,0.389888
-Selection,500,0.38784
-Selection,500,0.388864
-Selection,500,0.38912
-Selection,500,0.390656
-Selection,500,0.388608
-Selection,500,0.420352
-Selection,500,0.389376
-Selection,500,0.388608
-Selection,500,0.402688
-Selection,500,0.38912
-Selection,500,0.388096
-Selection,500,0.388608
-Selection,500,0.38912
-Selection,500,0.388864
-QuickSort pivô central,500,0.059392
-QuickSort pivô central,500,0.058368
-QuickSort pivô central,500,0.058624
-QuickSort pivô central,500,0.055808
-QuickSort pivô central,500,0.05632
-QuickSort pivô central,500,0.06272
-QuickSort pivô central,500,0.059648
-QuickSort pivô central,500,0.056576
-QuickSort pivô central,500,0.057856
-QuickSort pivô central,500,0.057088
-QuickSort pivô central,500,0.057856
-QuickSort pivô central,500,0.05632
-QuickSort pivô central,500,0.058368
-QuickSort pivô central,500,0.0576
-QuickSort pivô central,500,0.057856
-QuickSort pivô central,500,0.088832
-QuickSort pivô central,500,0.059904
-QuickSort pivô central,500,0.058368
-QuickSort pivô central,500,0.05888
-QuickSort pivô central,500,0.057856
-QuickSort pivô central,500,0.058624
-QuickSort pivô central,500,0.05632
-QuickSort pivô central,500,0.058624
-QuickSort pivô central,500,0.057088
-QuickSort pivô central,500,0.057344
-QuickSort pivô central,500,0.056832
-QuickSort pivô central,500,0.055808
-QuickSort pivô central,500,0.06016
-QuickSort pivô central,500,0.060416
-QuickSort pivô central,500,0.058368
-QuickSort pivô mediana,500,0.055552
-QuickSort pivô mediana,500,0.058368
-QuickSort pivô mediana,500,0.054016
-QuickSort pivô mediana,500,0.05632
-QuickSort pivô mediana,500,0.059904
-QuickSort pivô mediana,500,0.100864
-QuickSort pivô mediana,500,0.098048
-QuickSort pivô mediana,500,0.098048
-QuickSort pivô mediana,500,0.100352
-QuickSort pivô mediana,500,0.101632
-QuickSort pivô mediana,500,0.096512
-QuickSort pivô mediana,500,0.096
-QuickSort pivô mediana,500,0.095232
-QuickSort pivô mediana,500,0.101376
-QuickSort pivô mediana,500,0.073216
-QuickSort pivô mediana,500,0.097792
-QuickSort pivô mediana,500,0.093184
-QuickSort pivô mediana,500,0.091392
-QuickSort pivô mediana,500,0.090112
-QuickSort pivô mediana,500,0.09216
-QuickSort pivô mediana,500,0.093952
-QuickSort pivô mediana,500,0.09216
-QuickSort pivô mediana,500,0.063488
-QuickSort pivô mediana,500,0.063744
-QuickSort pivô mediana,500,0.062208
-QuickSort pivô mediana,500,0.062976
-QuickSort pivô mediana,500,0.06272
-QuickSort pivô mediana,500,0.066816
-QuickSort pivô mediana,500,0.064256
-QuickSort pivô mediana,500,0.063488
-QuickSort parcial,500,0.061696
-QuickSort parcial,500,0.063744
-QuickSort parcial,500,0.061184
-QuickSort parcial,500,0.061696
-QuickSort parcial,500,0.064512
-QuickSort parcial,500,0.064
-QuickSort parcial,500,0.066048
-QuickSort parcial,500,0.061952
-QuickSort parcial,500,0.065536
-QuickSort parcial,500,0.066048
-QuickSort parcial,500,0.061696
-QuickSort parcial,500,0.062208
-QuickSort parcial,500,0.073216
-QuickSort parcial,500,0.059648
-QuickSort parcial,500,0.065024
-QuickSort parcial,500,0.064
-QuickSort parcial,500,0.060928
-QuickSort parcial,500,0.097024
-QuickSort parcial,500,0.067584
-QuickSort parcial,500,0.065024
-QuickSort parcial,500,0.092672
-QuickSort parcial,500,0.063488
-QuickSort parcial,500,0.062208
-QuickSort parcial,500,0.06272
-QuickSort parcial,500,0.064256
-QuickSort parcial,500,0.063744
-QuickSort parcial,500,0.063232
-QuickSort parcial,500,0.063232
-QuickSort parcial,500,0.061696
-QuickSort parcial,500,0.062208
-Insertion,500,0.253184
-Insertion,500,0.408064
-Insertion,500,0.241408
-Insertion,500,0.260608
-Insertion,500,0.247552
-Insertion,500,0.261888
-Insertion,500,0.25216
-Insertion,500,0.260096
-Insertion,500,0.255744
-Insertion,500,0.265472
-Insertion,500,0.268544
-Insertion,500,0.25728
-Insertion,500,0.27648
-Insertion,500,0.246016
-Insertion,500,0.268288
-Insertion,500,0.26752
-Insertion,500,0.26624
-Insertion,500,0.287488
-Insertion,500,0.254464
-Insertion,500,0.246784
-Insertion,500,0.26368
-Insertion,500,0.253184
-Insertion,500,0.260864
-Insertion,500,0.245504
-Insertion,500,0.244736
-Insertion,500,0.25344
-Insertion,500,0.262912
-Insertion,500,0.263424
-Insertion,500,0.257792
-Insertion,500,0.24576
-ShellSort,1000,2.84621
-ShellSort,1000,2.79014
-ShellSort,1000,2.8247
-ShellSort,1000,2.75994
-ShellSort,1000,2.75072
-ShellSort,1000,2.71334
-ShellSort,1000,2.64704
-ShellSort,1000,2.63347
-ShellSort,1000,2.65139
-ShellSort,1000,2.56307
-ShellSort,1000,2.5641
-ShellSort,1000,2.56589
-ShellSort,1000,2.52672
-ShellSort,1000,2.73229
-ShellSort,1000,2.76403
-ShellSort,1000,2.81216
-ShellSort,1000,2.79757
-ShellSort,1000,2.81933
-ShellSort,1000,2.63885
-ShellSort,1000,2.68006
-ShellSort,1000,2.65395
-ShellSort,1000,2.61248
-ShellSort,1000,2.56666
-ShellSort,1000,2.60122
-ShellSort,1000,2.58406
-ShellSort,1000,2.55232
-ShellSort,1000,2.58765
-ShellSort,1000,2.59123
-ShellSort,1000,2.5984
-ShellSort,1000,2.5641
-MergeSort,1000,0.179456
-MergeSort,1000,0.179968
-MergeSort,1000,0.178944
-MergeSort,1000,0.17664
-MergeSort,1000,0.176896
-MergeSort,1000,0.177408
-MergeSort,1000,0.17664
-MergeSort,1000,0.177152
-MergeSort,1000,0.196352
-MergeSort,1000,0.177152
-MergeSort,1000,0.177152
-MergeSort,1000,0.189184
-MergeSort,1000,0.1792
-MergeSort,1000,0.175616
-MergeSort,1000,0.178688
-MergeSort,1000,0.178688
-MergeSort,1000,0.17664
-MergeSort,1000,0.176128
-MergeSort,1000,0.177408
-MergeSort,1000,0.178432
-MergeSort,1000,0.17536
-MergeSort,1000,0.174848
-MergeSort,1000,0.177664
-MergeSort,1000,0.179712
-MergeSort,1000,0.320768
-MergeSort,1000,0.340736
-MergeSort,1000,0.178176
-MergeSort,1000,0.176384
-MergeSort,1000,0.324096
-MergeSort,1000,0.176384
-Selection,1000,1.37805
-Selection,1000,1.36448
-Selection,1000,1.36192
-Selection,1000,1.37498
-Selection,1000,1.36294
-Selection,1000,1.9735
-Selection,1000,1.83885
-Selection,1000,1.37805
-Selection,1000,1.36781
-Selection,1000,1.36525
-Selection,1000,1.82784
-Selection,1000,1.79917
-Selection,1000,1.81453
-Selection,1000,1.80173
-Selection,1000,1.72288
-Selection,1000,1.74515
-Selection,1000,1.72621
-Selection,1000,1.71674
-Selection,1000,1.7129
-Selection,1000,1.69779
-Selection,1000,1.66067
-Selection,1000,1.71597
-Selection,1000,1.64403
-Selection,1000,1.72186
-Selection,1000,1.64326
-Selection,1000,1.64915
-Selection,1000,1.63968
-Selection,1000,1.61203
-Selection,1000,1.57952
-Selection,1000,1.58976
-QuickSort pivô central,1000,0.129792
-QuickSort pivô central,1000,0.126208
-QuickSort pivô central,1000,0.127232
-QuickSort pivô central,1000,0.145152
-QuickSort pivô central,1000,0.124672
-QuickSort pivô central,1000,0.204032
-QuickSort pivô central,1000,0.209152
-QuickSort pivô central,1000,0.20864
-QuickSort pivô central,1000,0.237568
-QuickSort pivô central,1000,0.20992
-QuickSort pivô central,1000,0.2176
-QuickSort pivô central,1000,0.1792
-QuickSort pivô central,1000,0.164608
-QuickSort pivô central,1000,0.124928
-QuickSort pivô central,1000,0.127488
-QuickSort pivô central,1000,0.123392
-QuickSort pivô central,1000,0.124416
-QuickSort pivô central,1000,0.122624
-QuickSort pivô central,1000,0.14592
-QuickSort pivô central,1000,0.16128
-QuickSort pivô central,1000,0.163072
-QuickSort pivô central,1000,0.173312
-QuickSort pivô central,1000,0.16128
-QuickSort pivô central,1000,0.17152
-QuickSort pivô central,1000,0.162304
-QuickSort pivô central,1000,0.165888
-QuickSort pivô central,1000,0.168704
-QuickSort pivô central,1000,0.152832
-QuickSort pivô central,1000,0.151552
-QuickSort pivô central,1000,0.128
-QuickSort pivô mediana,1000,0.156416
-QuickSort pivô mediana,1000,0.157696
-QuickSort pivô mediana,1000,0.150784
-QuickSort pivô mediana,1000,0.158976
-QuickSort pivô mediana,1000,0.175872
-QuickSort pivô mediana,1000,0.146176
-QuickSort pivô mediana,1000,0.1472
-QuickSort pivô mediana,1000,0.1472
-QuickSort pivô mediana,1000,0.144896
-QuickSort pivô mediana,1000,0.144896
-QuickSort pivô mediana,1000,0.128
-QuickSort pivô mediana,1000,0.128
-QuickSort pivô mediana,1000,0.127488
-QuickSort pivô mediana,1000,0.126976
-QuickSort pivô mediana,1000,0.124928
-QuickSort pivô mediana,1000,0.125184
-QuickSort pivô mediana,1000,0.204288
-QuickSort pivô mediana,1000,0.14848
-QuickSort pivô mediana,1000,0.152064
-QuickSort pivô mediana,1000,0.148224
-QuickSort pivô mediana,1000,0.145408
-QuickSort pivô mediana,1000,0.139776
-QuickSort pivô mediana,1000,0.145152
-QuickSort pivô mediana,1000,0.141568
-QuickSort pivô mediana,1000,0.142336
-QuickSort pivô mediana,1000,0.143872
-QuickSort pivô mediana,1000,0.142336
-QuickSort pivô mediana,1000,0.139776
-QuickSort pivô mediana,1000,0.141312
-QuickSort pivô mediana,1000,0.161792
-QuickSort parcial,1000,0.137216
-QuickSort parcial,1000,0.16128
-QuickSort parcial,1000,0.136192
-QuickSort parcial,1000,0.133632
-QuickSort parcial,1000,0.134912
-QuickSort parcial,1000,0.13568
-QuickSort parcial,1000,0.132864
-QuickSort parcial,1000,0.136192
-QuickSort parcial,1000,0.131584
-QuickSort parcial,1000,0.137984
-QuickSort parcial,1000,0.13824
-QuickSort parcial,1000,0.205056
-QuickSort parcial,1000,0.138752
-QuickSort parcial,1000,0.14976
-QuickSort parcial,1000,0.130816
-QuickSort parcial,1000,0.133888
-QuickSort parcial,1000,0.128256
-QuickSort parcial,1000,0.124928
-QuickSort parcial,1000,0.13312
-QuickSort parcial,1000,0.129792
-QuickSort parcial,1000,0.130816
-QuickSort parcial,1000,0.132608
-QuickSort parcial,1000,0.132864
-QuickSort parcial,1000,0.130304
-QuickSort parcial,1000,0.13056
-QuickSort parcial,1000,0.128512
-QuickSort parcial,1000,0.12544
-QuickSort parcial,1000,0.123136
-QuickSort parcial,1000,0.121088
-QuickSort parcial,1000,0.126976
-Insertion,1000,0.91136
-Insertion,1000,0.948224
-Insertion,1000,0.918528
-Insertion,1000,0.972544
-Insertion,1000,0.931072
-Insertion,1000,0.939776
-Insertion,1000,0.962816
-Insertion,1000,0.932096
-Insertion,1000,0.963072
-Insertion,1000,0.940544
-Insertion,1000,0.868352
-Insertion,1000,0.900352
-Insertion,1000,0.900864
-Insertion,1000,0.915712
-Insertion,1000,0.867328
-Insertion,1000,0.888576
-Insertion,1000,0.888064
-Insertion,1000,0.868608
-Insertion,1000,0.87296
-Insertion,1000,0.861952
-Insertion,1000,0.861952
-Insertion,1000,0.865536
-Insertion,1000,0.845312
-Insertion,1000,0.806912
-Insertion,1000,0.820992
-Insertion,1000,0.871936
-Insertion,1000,0.849664
-Insertion,1000,0.821504
-Insertion,1000,0.83712
-Insertion,1000,0.818944
-ShellSort,5000,101.348
-ShellSort,5000,104.536
-ShellSort,5000,102.309
-ShellSort,5000,74.7302
-ShellSort,5000,61.1689
-ShellSort,5000,56.62
-ShellSort,5000,56.4982
-ShellSort,5000,56.3062
-ShellSort,5000,56.8827
-ShellSort,5000,57.1464
-ShellSort,5000,57.1425
-ShellSort,5000,57.0527
-ShellSort,5000,57.2521
-ShellSort,5000,58.4466
-ShellSort,5000,56.4723
-ShellSort,5000,56.8932
-ShellSort,5000,56.2519
-ShellSort,5000,56.4672
-ShellSort,5000,57.1077
-ShellSort,5000,78.8728
-ShellSort,5000,59.6488
-ShellSort,5000,102.097
-ShellSort,5000,73.687
-ShellSort,5000,95.1813
-ShellSort,5000,71.3585
-ShellSort,5000,60.0474
-ShellSort,5000,57.9738
-ShellSort,5000,68.9746
-ShellSort,5000,102.511
-ShellSort,5000,74.496
-MergeSort,5000,0.932864
-MergeSort,5000,0.951808
-MergeSort,5000,0.926976
-MergeSort,5000,0.933632
-MergeSort,5000,0.926976
-MergeSort,5000,0.89856
-MergeSort,5000,0.897536
-MergeSort,5000,0.911616
-MergeSort,5000,0.89984
-MergeSort,5000,0.909312
-MergeSort,5000,0.921344
-MergeSort,5000,1.79917
-MergeSort,5000,0.872192
-MergeSort,5000,0.880128
-MergeSort,5000,0.887552
-MergeSort,5000,0.888064
-MergeSort,5000,0.869632
-MergeSort,5000,0.882944
-MergeSort,5000,0.869632
-MergeSort,5000,1.78586
-MergeSort,5000,0.87296
-MergeSort,5000,0.888576
-MergeSort,5000,0.865536
-MergeSort,5000,0.874752
-MergeSort,5000,0.871936
-MergeSort,5000,0.885248
-MergeSort,5000,0.87168
-MergeSort,5000,0.882176
-MergeSort,5000,0.867328
-MergeSort,5000,0.872704
-Selection,5000,27.7368
-Selection,5000,26.3503
-Selection,5000,53.506
-Selection,5000,53.0194
-Selection,5000,42.6504
-Selection,5000,37.1387
-Selection,5000,32.8671
-Selection,5000,29.9558
-Selection,5000,27.6536
-Selection,5000,26.1094
-Selection,5000,26.4453
-Selection,5000,53.5045
-Selection,5000,43.1626
-Selection,5000,37.1121
-Selection,5000,52.6308
-Selection,5000,42.6191
-Selection,5000,36.8901
-Selection,5000,32.9375
-Selection,5000,30.0285
-Selection,5000,28.2112
-Selection,5000,26.9012
-Selection,5000,26.0498
-Selection,5000,26.4187
-Selection,5000,26.3539
-Selection,5000,27.5064
-Selection,5000,27.3452
-Selection,5000,27.532
-Selection,5000,27.3487
-Selection,5000,27.2673
-Selection,5000,27.4086
-QuickSort pivô central,5000,0.53504
-QuickSort pivô central,5000,0.554752
-QuickSort pivô central,5000,0.527104
-QuickSort pivô central,5000,0.51584
-QuickSort pivô central,5000,0.543488
-QuickSort pivô central,5000,0.516352
-QuickSort pivô central,5000,0.565504
-QuickSort pivô central,5000,0.540928
-QuickSort pivô central,5000,0.530432
-QuickSort pivô central,5000,0.535808
-QuickSort pivô central,5000,0.511744
-QuickSort pivô central,5000,0.515328
-QuickSort pivô central,5000,0.514816
-QuickSort pivô central,5000,0.514304
-QuickSort pivô central,5000,0.562176
-QuickSort pivô central,5000,0.521728
-QuickSort pivô central,5000,0.571904
-QuickSort pivô central,5000,0.575232
-QuickSort pivô central,5000,0.545536
-QuickSort pivô central,5000,0.528128
-QuickSort pivô central,5000,0.518144
-QuickSort pivô central,5000,0.517888
-QuickSort pivô central,5000,0.513792
-QuickSort pivô central,5000,0.512768
-QuickSort pivô central,5000,0.507648
-QuickSort pivô central,5000,0.523264
-QuickSort pivô central,5000,0.534784
-QuickSort pivô central,5000,0.531456
-QuickSort pivô central,5000,0.52352
-QuickSort pivô central,5000,0.528128
-QuickSort pivô mediana,5000,0.512256
-QuickSort pivô mediana,5000,0.50432
-QuickSort pivô mediana,5000,0.57216
-QuickSort pivô mediana,5000,0.512512
-QuickSort pivô mediana,5000,0.505856
-QuickSort pivô mediana,5000,0.500736
-QuickSort pivô mediana,5000,0.51456
-QuickSort pivô mediana,5000,0.50048
-QuickSort pivô mediana,5000,0.506624
-QuickSort pivô mediana,5000,0.504064
-QuickSort pivô mediana,5000,0.49792
-QuickSort pivô mediana,5000,0.496384
-QuickSort pivô mediana,5000,0.50816
-QuickSort pivô mediana,5000,0.49664
-QuickSort pivô mediana,5000,0.54784
-QuickSort pivô mediana,5000,0.49408
-QuickSort pivô mediana,5000,0.496128
-QuickSort pivô mediana,5000,0.498688
-QuickSort pivô mediana,5000,0.507392
-QuickSort pivô mediana,5000,0.513536
-QuickSort pivô mediana,5000,0.514048
-QuickSort pivô mediana,5000,0.506624
-QuickSort pivô mediana,5000,0.503552
-QuickSort pivô mediana,5000,0.503808
-QuickSort pivô mediana,5000,0.496128
-QuickSort pivô mediana,5000,0.493312
-QuickSort pivô mediana,5000,0.521728
-QuickSort pivô mediana,5000,0.52736
-QuickSort pivô mediana,5000,0.506368
-QuickSort pivô mediana,5000,0.54016
-QuickSort parcial,5000,0.551424
-QuickSort parcial,5000,0.569344
-QuickSort parcial,5000,0.518912
-QuickSort parcial,5000,0.515072
-QuickSort parcial,5000,0.515072
-QuickSort parcial,5000,0.512256
-QuickSort parcial,5000,0.513792
-QuickSort parcial,5000,0.498944
-QuickSort parcial,5000,0.505344
-QuickSort parcial,5000,0.50176
-QuickSort parcial,5000,0.51328
-QuickSort parcial,5000,0.620544
-QuickSort parcial,5000,0.537344
-QuickSort parcial,5000,0.521728
-QuickSort parcial,5000,0.514304
-QuickSort parcial,5000,0.533248
-QuickSort parcial,5000,0.512
-QuickSort parcial,5000,0.499968
-QuickSort parcial,5000,0.56192
-QuickSort parcial,5000,0.508928
-QuickSort parcial,5000,0.513024
-QuickSort parcial,5000,0.501248
-QuickSort parcial,5000,0.608768
-QuickSort parcial,5000,0.653824
-QuickSort parcial,5000,0.595456
-QuickSort parcial,5000,0.636672
-QuickSort parcial,5000,0.612608
-QuickSort parcial,5000,0.63232
-QuickSort parcial,5000,0.61952
-QuickSort parcial,5000,0.623872
-Insertion,5000,19.6339
-Insertion,5000,21.7446
-Insertion,5000,21.0171
-Insertion,5000,18.1332
-Insertion,5000,18.5585
-Insertion,5000,18.0383
-Insertion,5000,17.8926
-Insertion,5000,29.7743
-Insertion,5000,25.7142
-Insertion,5000,23.7507
-Insertion,5000,21.7405
-Insertion,5000,20.3725
-Insertion,5000,19.4542
-Insertion,5000,18.3306
-Insertion,5000,18.0047
-Insertion,5000,17.6668
-Insertion,5000,17.4769
-Insertion,5000,17.4364
-Insertion,5000,17.6965
-Insertion,5000,17.6924
-Insertion,5000,36.4764
-Insertion,5000,36.5046
-Insertion,5000,31.2952
-Insertion,5000,36.0438
-Insertion,5000,30.6734
-Insertion,5000,27.7015
-Insertion,5000,30.4312
-Insertion,5000,28.0253
-Insertion,5000,25.7779
-Insertion,5000,23.081
+ShellSort,1000,0.237056
+ShellSort,1000,0.281088
+ShellSort,1000,0.274176
+ShellSort,1000,0.267008
+ShellSort,1000,0.236544
+ShellSort,1000,0.216064
+ShellSort,1000,0.278016
+ShellSort,1000,0.290048
+ShellSort,1000,0.263424
+ShellSort,1000,0.264704
+ShellSort,1000,0.272896
+ShellSort,1000,0.25856
+ShellSort,1000,0.274944
+ShellSort,1000,0.242432
+ShellSort,1000,0.246272
+ShellSort,1000,0.274432
+ShellSort,1000,0.250368
+ShellSort,1000,0.244224
+ShellSort,1000,0.243456
+ShellSort,1000,0.250112
+ShellSort,1000,0.250368
+ShellSort,1000,0.248064
+ShellSort,1000,0.236288
+ShellSort,1000,0.228096
+ShellSort,1000,0.240128
+ShellSort,1000,0.238592
+ShellSort,1000,0.224
+ShellSort,1000,0.226304
+ShellSort,1000,0.217856
+ShellSort,1000,0.224768
+ShellSort,2000,0.500224
+ShellSort,2000,0.525824
+ShellSort,2000,0.507648
+ShellSort,2000,0.484864
+ShellSort,2000,0.50432
+ShellSort,2000,0.474112
+ShellSort,2000,0.47616
+ShellSort,2000,0.498176
+ShellSort,2000,0.507136
+ShellSort,2000,0.461056
+ShellSort,2000,0.451584
+ShellSort,2000,0.449536
+ShellSort,2000,0.479744
+ShellSort,2000,0.431104
+ShellSort,2000,0.457728
+ShellSort,2000,0.439296
+ShellSort,2000,0.438016
+ShellSort,2000,0.429312
+ShellSort,2000,0.429568
+ShellSort,2000,0.43904
+ShellSort,2000,0.431104
+ShellSort,2000,0.441088
+ShellSort,2000,0.400384
+ShellSort,2000,0.406528
+ShellSort,2000,0.410368
+ShellSort,2000,0.442112
+ShellSort,2000,0.403968
+ShellSort,2000,0.393472
+ShellSort,2000,0.432384
+ShellSort,2000,0.382464
+ShellSort,5000,1.13766
+ShellSort,5000,1.20934
+ShellSort,5000,1.18349
+ShellSort,5000,1.19629
+ShellSort,5000,1.16352
+ShellSort,5000,1.10541
+ShellSort,5000,1.08954
+ShellSort,5000,1.10643
+ShellSort,5000,1.09747
+ShellSort,5000,1.05011
+ShellSort,5000,1.53395
+ShellSort,5000,1.95891
+ShellSort,5000,1.92154
+ShellSort,5000,1.11744
+ShellSort,5000,1.07546
+ShellSort,5000,1.10336
+ShellSort,5000,1.06445
+ShellSort,5000,1.07494
+ShellSort,5000,1.08979
+ShellSort,5000,1.04525
+ShellSort,5000,1.10362
+ShellSort,5000,1.0391
+ShellSort,5000,1.03322
+ShellSort,5000,1.02579
+ShellSort,5000,1.0281
+ShellSort,5000,1.05114
+ShellSort,5000,1.04141
+ShellSort,5000,1.03654
+ShellSort,5000,1.00736
+ShellSort,5000,1.02374
+ShellSort,10000,2.46093
+ShellSort,10000,2.2336
+ShellSort,10000,2.31962
+ShellSort,10000,2.1312
+ShellSort,10000,2.71642
+ShellSort,10000,4.20506
+ShellSort,10000,2.16422
+ShellSort,10000,2.16986
+ShellSort,10000,2.16653
+ShellSort,10000,2.08768
+ShellSort,10000,2.13555
+ShellSort,10000,2.08666
+ShellSort,10000,2.18035
+ShellSort,10000,2.14656
+ShellSort,10000,2.22362
+ShellSort,10000,2.18214
+ShellSort,10000,2.06694
+ShellSort,10000,2.24
+ShellSort,10000,2.11098
+ShellSort,10000,2.15885
+ShellSort,10000,2.13581
+ShellSort,10000,2.14042
+ShellSort,10000,2.12301
+ShellSort,10000,2.19187
+ShellSort,10000,2.08179
+ShellSort,10000,2.14246
+ShellSort,10000,2.10714
+ShellSort,10000,2.12941
+ShellSort,10000,2.11123
+ShellSort,10000,2.14989
+ShellSort,50000,13.6643
+ShellSort,50000,27.5922
+ShellSort,50000,24.6267
+ShellSort,50000,22.402
+ShellSort,50000,20.1329
+ShellSort,50000,19.5041
+ShellSort,50000,27.2212
+ShellSort,50000,22.795
+ShellSort,50000,20.0591
+ShellSort,50000,19.2499
+ShellSort,50000,17.013
+ShellSort,50000,15.8948
+ShellSort,50000,27.3836
+ShellSort,50000,15.8313
+ShellSort,50000,15.5817
+ShellSort,50000,14.3386
+ShellSort,50000,13.6422
+ShellSort,50000,13.0755
+ShellSort,50000,13.2503
+ShellSort,50000,13.6983
+ShellSort,50000,12.9884
+ShellSort,50000,12.7857
+ShellSort,50000,13.0527
+ShellSort,50000,13.0163
+ShellSort,50000,26.763
+ShellSort,50000,27.3772
+ShellSort,50000,23.2223
+ShellSort,50000,20.9946
+ShellSort,50000,18.4568
+ShellSort,50000,17.4377
+ShellSort,100000,39.0303
+ShellSort,100000,30.9253
+ShellSort,100000,28.1825
+ShellSort,100000,29.4682
+ShellSort,100000,28.5394
+ShellSort,100000,28.759
+ShellSort,100000,28.4785
+ShellSort,100000,29.7764
+ShellSort,100000,28.7398
+ShellSort,100000,29.2201
+ShellSort,100000,28.4165
+ShellSort,100000,54.988
+ShellSort,100000,53.7221
+ShellSort,100000,53.0081
+ShellSort,100000,42.754
+ShellSort,100000,36.4951
+ShellSort,100000,32.4357
+ShellSort,100000,30.7566
+ShellSort,100000,27.285
+ShellSort,100000,28.7178
+ShellSort,100000,28.4349
+ShellSort,100000,28.662
+ShellSort,100000,28.8241
+ShellSort,100000,27.6982
+ShellSort,100000,58.9901
+ShellSort,100000,54.5285
+ShellSort,100000,42.3793
+ShellSort,100000,33.1095
+ShellSort,100000,28.5187
+ShellSort,100000,29.5378
+ShellSort,500000,212.247
+ShellSort,500000,241.658
+ShellSort,500000,222.639
+ShellSort,500000,219.535
+ShellSort,500000,227.026
+ShellSort,500000,188.123
+ShellSort,500000,184.468
+ShellSort,500000,192.104
+ShellSort,500000,185.277
+ShellSort,500000,180.712
+ShellSort,500000,229.04
+ShellSort,500000,184.695
+ShellSort,500000,185.872
+ShellSort,500000,185.914
+ShellSort,500000,178.113
+ShellSort,500000,187.614
+ShellSort,500000,179.58
+ShellSort,500000,174.954
+ShellSort,500000,183.704
+ShellSort,500000,178.74
+ShellSort,500000,176.699
+ShellSort,500000,176.982
+ShellSort,500000,176.22
+ShellSort,500000,178.567
+ShellSort,500000,185.309
+ShellSort,500000,190.202
+ShellSort,500000,223.203
+ShellSort,500000,188.061
+ShellSort,500000,214.439
+ShellSort,500000,190.879
+MergeSort,1000,0.148224
+MergeSort,1000,0.146944
+MergeSort,1000,0.142848
+MergeSort,1000,0.14464
+MergeSort,1000,0.144896
+MergeSort,1000,0.16768
+MergeSort,1000,0.142848
+MergeSort,1000,0.142592
+MergeSort,1000,0.142592
+MergeSort,1000,0.142848
+MergeSort,1000,0.14208
+MergeSort,1000,0.143872
+MergeSort,1000,0.146688
+MergeSort,1000,0.260352
+MergeSort,1000,0.25728
+MergeSort,1000,0.255488
+MergeSort,1000,0.294144
+MergeSort,1000,0.147456
+MergeSort,1000,0.256256
+MergeSort,1000,0.232704
+MergeSort,1000,0.230912
+MergeSort,1000,0.250624
+MergeSort,1000,0.242432
+MergeSort,1000,0.238336
+MergeSort,1000,0.231936
+MergeSort,1000,0.231424
+MergeSort,1000,0.26496
+MergeSort,1000,0.224768
+MergeSort,1000,0.22528
+MergeSort,1000,0.227072
+MergeSort,2000,0.470784
+MergeSort,2000,0.4992
+MergeSort,2000,0.608
+MergeSort,2000,0.585216
+MergeSort,2000,0.537344
+MergeSort,2000,0.538624
+MergeSort,2000,0.5376
+MergeSort,2000,0.540672
+MergeSort,2000,0.533248
+MergeSort,2000,0.513792
+MergeSort,2000,0.514304
+MergeSort,2000,0.52096
+MergeSort,2000,0.509696
+MergeSort,2000,0.679936
+MergeSort,2000,0.47744
+MergeSort,2000,0.467456
+MergeSort,2000,0.4672
+MergeSort,2000,0.467712
+MergeSort,2000,0.529664
+MergeSort,2000,0.471552
+MergeSort,2000,0.466432
+MergeSort,2000,0.467456
+MergeSort,2000,0.4672
+MergeSort,2000,0.4672
+MergeSort,2000,0.46848
+MergeSort,2000,0.449024
+MergeSort,2000,0.447232
+MergeSort,2000,0.452352
+MergeSort,2000,0.44544
+MergeSort,2000,0.58112
+MergeSort,5000,1.22112
+MergeSort,5000,1.14765
+MergeSort,5000,1.16506
+MergeSort,5000,1.1625
+MergeSort,5000,1.79891
+MergeSort,5000,1.10464
+MergeSort,5000,1.86189
+MergeSort,5000,1.66298
+MergeSort,5000,1.60179
+MergeSort,5000,1.6169
+MergeSort,5000,1.11411
+MergeSort,5000,1.43693
+MergeSort,5000,1.16326
+MergeSort,5000,1.28538
+MergeSort,5000,1.25005
+MergeSort,5000,1.19936
+MergeSort,5000,1.14278
+MergeSort,5000,1.13715
+MergeSort,5000,1.06445
+MergeSort,5000,1.06163
+MergeSort,5000,1.08339
+MergeSort,5000,1.06829
+MergeSort,5000,1.0624
+MergeSort,5000,1.18042
+MergeSort,5000,1.06419
+MergeSort,5000,1.05907
+MergeSort,5000,1.0665
+MergeSort,5000,1.05933
+MergeSort,5000,1.08339
+MergeSort,5000,1.08544
+MergeSort,10000,2.23923
+MergeSort,10000,2.25178
+MergeSort,10000,2.24435
+MergeSort,10000,2.5472
+MergeSort,10000,2.5495
+MergeSort,10000,2.58714
+MergeSort,10000,2.44915
+MergeSort,10000,2.51315
+MergeSort,10000,2.3959
+MergeSort,10000,2.40768
+MergeSort,10000,3.36205
+MergeSort,10000,3.4048
+MergeSort,10000,3.22714
+MergeSort,10000,3.21997
+MergeSort,10000,3.13958
+MergeSort,10000,3.07763
+MergeSort,10000,3.04845
+MergeSort,10000,2.96038
+MergeSort,10000,2.90432
+MergeSort,10000,2.76992
+MergeSort,10000,2.76864
+MergeSort,10000,2.80371
+MergeSort,10000,2.69107
+MergeSort,10000,2.68083
+MergeSort,10000,3.23226
+MergeSort,10000,3.81005
+MergeSort,10000,3.62752
+MergeSort,10000,3.59091
+MergeSort,10000,3.43475
+MergeSort,10000,3.42733
+MergeSort,50000,20.0238
+MergeSort,50000,18.2925
+MergeSort,50000,16.7281
+MergeSort,50000,15.9035
+MergeSort,50000,19.4985
+MergeSort,50000,14.7226
+MergeSort,50000,13.9105
+MergeSort,50000,20.2481
+MergeSort,50000,20.6428
+MergeSort,50000,18.6061
+MergeSort,50000,20.9052
+MergeSort,50000,18.4906
+MergeSort,50000,15.9094
+MergeSort,50000,13.8913
+MergeSort,50000,13.1126
+MergeSort,50000,12.5294
+MergeSort,50000,11.9621
+MergeSort,50000,10.2569
+MergeSort,50000,10.4791
+MergeSort,50000,10.2833
+MergeSort,50000,10.2856
+MergeSort,50000,10.1768
+MergeSort,50000,10.3956
+MergeSort,50000,10.2879
+MergeSort,50000,10.4197
+MergeSort,50000,10.4338
+MergeSort,50000,9.89005
+MergeSort,50000,9.6384
+MergeSort,50000,9.5401
+MergeSort,50000,9.5808
+MergeSort,100000,22.0247
+MergeSort,100000,21.4346
+MergeSort,100000,21.9343
+MergeSort,100000,21.3571
+MergeSort,100000,21.4382
+MergeSort,100000,21.4054
+MergeSort,100000,21.1287
+MergeSort,100000,21.2513
+MergeSort,100000,31.3761
+MergeSort,100000,27.6452
+MergeSort,100000,24.31
+MergeSort,100000,21.7613
+MergeSort,100000,21.5427
+MergeSort,100000,21.4467
+MergeSort,100000,21.5119
+MergeSort,100000,21.7398
+MergeSort,100000,21.7101
+MergeSort,100000,29.8156
+MergeSort,100000,23.1744
+MergeSort,100000,21.7815
+MergeSort,100000,21.5186
+MergeSort,100000,21.4922
+MergeSort,100000,21.7485
+MergeSort,100000,21.387
+MergeSort,100000,21.5677
+MergeSort,100000,21.3908
+MergeSort,100000,20.3249
+MergeSort,100000,21.5158
+MergeSort,100000,21.4546
+MergeSort,100000,21.537
+MergeSort,500000,116.719
+MergeSort,500000,114.693
+MergeSort,500000,115.916
+MergeSort,500000,116.384
+MergeSort,500000,114.793
+MergeSort,500000,109.315
+MergeSort,500000,109.572
+MergeSort,500000,108.77
+MergeSort,500000,111.302
+MergeSort,500000,117.2
+MergeSort,500000,116.22
+MergeSort,500000,108.95
+MergeSort,500000,111.384
+MergeSort,500000,117.006
+MergeSort,500000,116.291
+MergeSort,500000,109.189
+MergeSort,500000,143.666
+MergeSort,500000,108.883
+MergeSort,500000,116.698
+MergeSort,500000,114.602
+MergeSort,500000,114.139
+MergeSort,500000,145.072
+MergeSort,500000,115.046
+MergeSort,500000,116.313
+MergeSort,500000,110.4
+MergeSort,500000,109.121
+MergeSort,500000,143.216
+MergeSort,500000,117.371
+MergeSort,500000,112.716
+MergeSort,500000,146.592
+Selection,1000,2.33062
+Selection,1000,2.36237
+Selection,1000,2.05875
+Selection,1000,1.88646
+Selection,1000,1.88134
+Selection,1000,2.09203
+Selection,1000,1.90797
+Selection,1000,2.02342
+Selection,1000,2.02496
+Selection,1000,2.00141
+Selection,1000,1.89901
+Selection,1000,1.8903
+Selection,1000,1.88032
+Selection,1000,1.79456
+Selection,1000,1.82938
+Selection,1000,1.20064
+Selection,1000,1.79866
+Selection,1000,2.48934
+Selection,1000,2.4704
+Selection,1000,2.46272
+Selection,1000,2.32064
+Selection,1000,2.33958
+Selection,1000,2.23002
+Selection,1000,1.9776
+Selection,1000,2.21978
+Selection,1000,2.19699
+Selection,1000,2.15987
+Selection,1000,2.06106
+Selection,1000,2.16192
+Selection,1000,1.97299
+Selection,2000,7.69254
+Selection,2000,7.43603
+Selection,2000,7.26502
+Selection,2000,6.94528
+Selection,2000,6.6985
+Selection,2000,6.63168
+Selection,2000,6.41843
+Selection,2000,6.35418
+Selection,2000,6.10432
+Selection,2000,5.66298
+Selection,2000,4.7127
+Selection,2000,4.41984
+Selection,2000,4.33229
+Selection,2000,4.37274
+Selection,2000,4.4201
+Selection,2000,4.42496
+Selection,2000,4.32666
+Selection,2000,4.29286
+Selection,2000,4.27059
+Selection,2000,4.30746
+Selection,2000,4.2729
+Selection,2000,4.27776
+Selection,2000,4.26086
+Selection,2000,4.26906
+Selection,2000,4.27443
+Selection,2000,4.29133
+Selection,2000,4.56269
+Selection,2000,4.7447
+Selection,2000,5.1223
+Selection,2000,4.5417
+Selection,5000,26.912
+Selection,5000,26.282
+Selection,5000,25.9653
+Selection,5000,26.0316
+Selection,5000,50.2508
+Selection,5000,40.639
+Selection,5000,35.4778
+Selection,5000,32.0607
+Selection,5000,29.3082
+Selection,5000,27.1811
+Selection,5000,25.9428
+Selection,5000,27.1706
+Selection,5000,28.1272
+Selection,5000,28.4009
+Selection,5000,28.6162
+Selection,5000,28.0251
+Selection,5000,28.9761
+Selection,5000,28.4393
+Selection,5000,28.384
+Selection,5000,27.8479
+Selection,5000,26.0396
+Selection,5000,26.4067
+Selection,5000,35.884
+Selection,5000,29.3768
+Selection,5000,28.3169
+Selection,5000,28.4521
+Selection,5000,28.0714
+Selection,5000,28.108
+Selection,5000,28.5151
+Selection,5000,26.7945
+Selection,10000,111.26
+Selection,10000,111.417
+Selection,10000,111.883
+Selection,10000,112.161
+Selection,10000,103.162
+Selection,10000,103.302
+Selection,10000,106.199
+Selection,10000,165.562
+Selection,10000,107.709
+Selection,10000,103.109
+Selection,10000,103.205
+Selection,10000,105.343
+Selection,10000,111.913
+Selection,10000,110.995
+Selection,10000,103.44
+Selection,10000,155.854
+Selection,10000,137.152
+Selection,10000,105.46
+Selection,10000,103.154
+Selection,10000,112.557
+Selection,10000,112.823
+Selection,10000,111.705
+Selection,10000,103.555
+Selection,10000,103.077
+Selection,10000,103.096
+Selection,10000,103.382
+Selection,10000,105.3
+Selection,10000,104.233
+Selection,10000,103.144
+Selection,10000,111.073
+Selection,50000,2568.89
+Selection,50000,2623.21
+Selection,50000,2555.36
+Selection,50000,2556.06
+Selection,50000,2554.2
+Selection,50000,2554.34
+Selection,50000,2554.46
+Selection,50000,2554.48
+Selection,50000,2554.6
+Selection,50000,2554.86
+Selection,50000,2554.97
+Selection,50000,2554.98
+Selection,50000,2554.03
+Selection,50000,2554.85
+Selection,50000,2554.47
+Selection,50000,2555.21
+Selection,50000,2554.49
+Selection,50000,2553.97
+Selection,50000,2554.17
+Selection,50000,2554
+Selection,50000,2623.02
+Selection,50000,2554.65
+Selection,50000,2554.31
+Selection,50000,2553.75
+Selection,50000,2554.02
+Selection,50000,2554.63
+Selection,50000,2554.16
+Selection,50000,2556.01
+Selection,50000,2554.9
+Selection,50000,2553.49
+Selection,100000,10191.5
+Selection,100000,10192.3
+Selection,100000,10189.9
+Selection,100000,10190.5
+Selection,100000,10189.8
+Selection,100000,10191.2
+Selection,100000,10190.6
+Selection,100000,10199.8
+Selection,100000,10199.4
