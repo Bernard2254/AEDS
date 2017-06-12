@@ -9,7 +9,7 @@ int main(int argc, char** argv){
 	Ordena teste(size);
 	teste.tempo.inicia();
 	teste.insertion();
-	teste.confere();
 	teste.tempo.finaliza("Insertion", teste.TAM);
+	teste.confere();
 	return 0;
 }

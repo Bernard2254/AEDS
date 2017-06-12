@@ -9,8 +9,8 @@ int main(int argc, char** argv){
 	Ordena teste(size);
 	teste.tempo.inicia();
 	teste.selection();
-	teste.confere();
 	teste.tempo.finaliza("Selection", teste.TAM);
+	teste.confere();
 
 	return 0;
 }

@@ -9,8 +9,8 @@ int main(int argc, char** argv){
 	Ordena teste(size);
 	teste.tempo.inicia();
 	teste.shellSort();
-	teste.confere();
 	teste.tempo.finaliza("ShellSort", teste.TAM);
+	teste.confere();
 
 	return 0;
 }
