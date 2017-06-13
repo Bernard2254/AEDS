@@ -45,7 +45,7 @@ cd ../
 		rm -rf ./mergesort *.o;
 	cd ../Selection;
 	for(( j=0; j<$TAM; j++)) do
-		printf "Selection - ${ARRAY[j]}"
+		printf "Selection - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Selection - $((i+1))/$NUM - "
 			./selection ${ARRAY[j]}>> ../$STR;
@@ -56,7 +56,7 @@ cd ../
 		rm -rf ./selection *.o;
 	cd ../QuickSort/Pivo_central;
 	for(( j=0; j<$TAM; j++)) do
-		printf "Quick 1 - ${ARRAY[j]}"
+		printf "Quick 1 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 1 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
@@ -67,7 +67,7 @@ cd ../
 		rm -rf ./quick *.o;
 	cd ../Pivo_mediana;
 	for(( j=0; j<$TAM; j++)) do
-		printf "Quick 2 - ${ARRAY[j]}"
+		printf "Quick 2 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 2 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
@@ -78,7 +78,7 @@ cd ../
 		rm -rf ./quick *.o;
 	cd ../QuickParcial;
 	for(( j=0; j<$TAM; j++)) do
-		printf "Quick 3 - ${ARRAY[j]}"
+		printf "Quick 3 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 3 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
@@ -89,7 +89,7 @@ cd ../
 		rm -rf ./quick *.o;
 	cd ../../Insertion;
 	for(( j=0; j<$TAM; j++)) do
-		printf "Insertion - ${ARRAY[j]}"
+		printf "Insertion - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Insertion - $((i+1))/$NUM - "
 			./insertion ${ARRAY[j]}>> ../$STR;
