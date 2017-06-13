@@ -23,58 +23,79 @@ cd ../../Insertion;
 cd ../
 	cd ShellSort/;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Shell - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Shell - $((i+1))/$NUM - "
 			./shell ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Shell - ${ARRAY[j]} - OK"
+		printf "Shell - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./shell *.o;
 	cd ../MergeSort;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Merge - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Merge - $((i+1))/$NUM - "
 			./mergesort ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Merge - ${ARRAY[j]} - OK"
+		printf "Merge - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./mergesort *.o;
 	cd ../Selection;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Selection - ${ARRAY[j]}"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Selection - $((i+1))/$NUM - "
 			./selection ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Selection - ${ARRAY[j]} - OK"
+		printf "Selection - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./selection *.o;
 	cd ../QuickSort/Pivo_central;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Quick 1 - ${ARRAY[j]}"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Quick 1 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Quick 1 - ${ARRAY[j]} - OK"
+		printf "Quick 1 - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./quick *.o;
 	cd ../Pivo_mediana;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Quick 2 - ${ARRAY[j]}"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Quick 2 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Quick 1 - ${ARRAY[j]} - OK"
+		printf "Quick 2 - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./quick *.o;
 	cd ../QuickParcial;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Quick 3 - ${ARRAY[j]}"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Quick 3 - $((i+1))/$NUM - "
 			./quick ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Quick 1 - ${ARRAY[j]} - OK"
+		printf "Quick 3 - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./quick *.o;
 	cd ../../Insertion;
 	for(( j=0; j<$TAM; j++)) do
+		printf "Insertion - ${ARRAY[j]}"
 		for(( i=0;i<$NUM;i++ )) do
+			printf "Insertion - $((i+1))/$NUM - "
 			./insertion ${ARRAY[j]}>> ../$STR;
+			echo "OK"
 		done
-		echo "Insertion - ${ARRAY[j]} - OK"
+		printf "Insertion - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./insertion *.o;
 	cd ../
