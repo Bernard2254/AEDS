@@ -43,17 +43,6 @@ cd ../
 		printf "Merge - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./mergesort *.o;
-	cd ../Selection;
-	for(( j=0; j<$TAM; j++)) do
-		printf "Selection - ${ARRAY[j]}"
-		for(( i=0;i<$NUM;i++ )) do
-			printf "Selection - $((i+1))/$NUM - "
-			./selection ${ARRAY[j]}>> ../$STR;
-			echo "OK"
-		done
-		printf "Selection - ${ARRAY[j]} - OK\n\n"
-	done
-		rm -rf ./selection *.o;
 	cd ../QuickSort/Pivo_central;
 	for(( j=0; j<$TAM; j++)) do
 		printf "Quick 1 - ${ARRAY[j]}"
@@ -98,7 +87,17 @@ cd ../
 		printf "Insertion - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./insertion *.o;
-	cd ../
+	cd ../Selection;
+	for(( j=0; j<$TAM; j++)) do
+		printf "Selection - ${ARRAY[j]}"
+		for(( i=0;i<$NUM;i++ )) do
+			printf "Selection - $((i+1))/$NUM - "
+			./selection ${ARRAY[j]}>> ../$STR;
+			echo "OK"
+		done
+		printf "Selection - ${ARRAY[j]} - OK\n\n"
+	done
+		rm -rf ./selection *.o;
 done
 
 
