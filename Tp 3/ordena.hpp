@@ -57,6 +57,66 @@ public:
 	Tempo tempo;
 	int TAM;
 
+	void copiaVetor(tipo *vec, int size){
+		free(vetor);
+		vetor = (tipo *)malloc(sizeof(tipo) * size);
+		for(int i=0; i<size; i++)
+			vetor[i] = vec[i];
+
+	}
+
+	void Experimento(tipo *vec, int size){
+		copiaVetor(vec, size);
+		this->TAM = size;
+
+		this->tempo.inicia();
+			this->selection();
+		this->tempo.finaliza("Selection", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->quickSort(0, size-1);
+		this->tempo.finaliza("Quick 1", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->insertion();
+		this->tempo.finaliza("Insertion", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->quickSortMediana(0, size-1);
+		this->tempo.finaliza("Quick 2", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->quickSortInsertion(0, size-1);
+		this->tempo.finaliza("Quick 3", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->shellSort();
+		this->tempo.finaliza("Shell", size);
+		this->confere();
+
+		copiaVetor(vec, size);
+
+		this->tempo.inicia();
+			this->mergeSort(0, size-1);
+		this->tempo.finaliza("Merge", size);
+		this->confere();
+	}
+
 	Ordena(int size){
 		mt19937 semente;
 		uniform_int_distribution<tipo> unif_int_d(0, RAND);
