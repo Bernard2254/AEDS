@@ -48,7 +48,7 @@ cd ../
 		printf "Quick 1 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 1 - $((i+1))/$NUM - "
-			./quick ${ARRAY[j]}>> ../$STR;
+			./quick ${ARRAY[j]}>> ../../$STR;
 			echo "OK"
 		done
 		printf "Quick 1 - ${ARRAY[j]} - OK\n\n"
@@ -59,7 +59,7 @@ cd ../
 		printf "Quick 2 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 2 - $((i+1))/$NUM - "
-			./quick ${ARRAY[j]}>> ../$STR;
+			./quick ${ARRAY[j]}>> ../../$STR;
 			echo "OK"
 		done
 		printf "Quick 2 - ${ARRAY[j]} - OK\n\n"
@@ -70,7 +70,7 @@ cd ../
 		printf "Quick 3 - ${ARRAY[j]}\n\n"
 		for(( i=0;i<$NUM;i++ )) do
 			printf "Quick 3 - $((i+1))/$NUM - "
-			./quick ${ARRAY[j]}>> ../$STR;
+			./quick ${ARRAY[j]}>> ../../$STR;
 			echo "OK"
 		done
 		printf "Quick 3 - ${ARRAY[j]} - OK\n\n"
@@ -98,7 +98,5 @@ cd ../
 		printf "Selection - ${ARRAY[j]} - OK\n\n"
 	done
 		rm -rf ./selection *.o;
-done
-
 
 
