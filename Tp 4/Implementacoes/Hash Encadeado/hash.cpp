@@ -6,7 +6,6 @@
 using namespace std;
 using namespace std::chrono;
 
-#define NUMBER_OF_TESTS 3
 
 class Cell{
 	public:
@@ -14,12 +13,12 @@ class Cell{
 		Cell *next;
 
 		Cell(){
-			next = NULL;
+			this->next = NULL;
 		}
 
 		Cell(string cont){
-			cont = cont;
-			next = NULL;
+			this->cont = cont;
+			this->next = NULL;
 		}
 };
 
@@ -29,7 +28,7 @@ class Hash{
 		int mod, colision = 0;
 
 		Hash(int mod){
-			this->table = (Cell *)malloc(mod*sizeof(Cell));
+			this->table = new Cell[mod];
 			this->mod = mod;
 		}
 
@@ -104,7 +103,7 @@ class Hash{
 			return -1;
 		}
 
-		void deleteElement(string cont){
+		int deleteElement(string cont){
 			int index = searchFor(cont);
 			if(index != -1){
 				Cell *aux2 = table[index].next;
@@ -113,20 +112,22 @@ class Hash{
 					if(aux->cont == cont){
 						aux2->next = aux->next;
 						free(aux);
-						cout<<"\""<<cont<<"\" apagado\n";
-						return;
+						//cout<<"\""<<cont<<"\" apagado\n";
+						return 1;
 					}
 					aux2 = aux;
 					aux = aux->next;
 				}	
 			}
+			return 0;
+
 		}
 };
 
 int main(int argc, char **argv){
-	for(int i=1; i<NUMBER_OF_TESTS+1; i++){
+	for(int i=1; i<(argc-1)/2+1; i++){
 		int mod = atoi(argv[i]);
-		for(int j=4; j<=2*NUMBER_OF_TESTS; j++){
+		for(int j=4; j<=2*(argc-1)/2; j++){
 			int numbers = atoi(argv[j]);
 			cout<<"M = "<<mod<<" N = "<<numbers<<endl;
 
@@ -137,6 +138,5 @@ int main(int argc, char **argv){
 			cout<<"Colisões = "<<h.colision<<endl<<endl;
 		}
 	}
-
 
 }

@@ -1,4 +1,4 @@
-/* ALUNO: 201612040187 - Bernard Menezes 
+/* ALUNO: Bernard Menezes 
 *  PROBLEMA: 1257 − Array Hash 
 */
 

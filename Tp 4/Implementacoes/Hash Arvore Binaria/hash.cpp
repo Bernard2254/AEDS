@@ -6,7 +6,6 @@
 using namespace std;
 using namespace std::chrono;
 
-#define NUMBER_OF_TESTS 3
 #define EMPTY " "
 
 class Cell{
@@ -16,11 +15,11 @@ class Cell{
 		Cell *left = NULL;
 
 		Cell(){
-			cont = EMPTY;
+			this->cont = EMPTY;
 		}
 
 		Cell(string cont){
-			cont = cont;
+			this->cont = cont;
 		}
 };
 
@@ -64,7 +63,7 @@ class Hash{
 		int mod, colision = 0;
 
 		Hash(int mod){
-			this->table = (Cell *)malloc(mod*sizeof(Cell));
+			this->table = new Cell[mod];
 			for(int i=0; i<mod; i++)
 				table[i] = Cell();
 			this->mod = mod;
@@ -143,24 +142,27 @@ class Hash{
 			}
 		}
 
-		void deleteElement(string cont){
+		int deleteElement(string cont){
 			int index = searchFor(cont);
 			if(index != -1){
 				Cell *aux = &table[index];
 				if(aux->cont == cont && aux->right == NULL && aux->left == NULL){
 					aux->cont = EMPTY;
 					cout<<"\""<<cont<<"\" apagado"<<endl;
+					return 1;
 				}
 				else{
 					deleteBinaryElement(aux, cont, index);
 					cout<<"\""<<cont<<"\" apagado"<<endl;
+					return 1;
 				}
 				
 			}
+			return 0;
 		}
 
 		void deleteBinaryElement(Cell *in, string cont, int index){
-			string *vec = (string *) malloc(sizeof(string)*1000);
+			string *vec = new string[mod];
 			int i = 0;
 			writeTreeInVector(in, &i, cont, vec);
 			free(table[index].right);
@@ -172,9 +174,9 @@ class Hash{
 };
 
 int main(int argc, char **argv){
-	for(int i=1; i<NUMBER_OF_TESTS+1; i++){
+	for(int i=1; i<(argc-1)/2+1; i++){
 		int mod = atoi(argv[i]);
-		for(int j=4; j<=2*NUMBER_OF_TESTS; j++){
+		for(int j=4; j<=2*(argc-1)/2; j++){
 			int numbers = atoi(argv[j]);
 			cout<<"M = "<<mod<<" N = "<<numbers<<endl;
 

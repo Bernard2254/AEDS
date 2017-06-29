@@ -6,7 +6,6 @@
 using namespace std;
 using namespace std::chrono;
 
-#define NUMBER_OF_TESTS 3
 #define EMPTY " "
 
 class Hash{
@@ -15,7 +14,7 @@ class Hash{
 		int mod, colision = 0;
 
 		Hash(int mod){
-			this->table = (string *)malloc(mod*sizeof(string));
+			this->table = new string[mod];
 			for(int i=0; i<mod; i++)
 				table[i] = EMPTY;
 			this->mod = mod;
@@ -33,10 +32,19 @@ class Hash{
 				colision++;
 				if(index!=mod-1)
 					index++;
+				else
+					index=0;
 				while(table[index]!=EMPTY){
-					if(index+1 == init){
-						cout<<"Tabela cheia\n";
-						return 0;
+					if(index!=mod-1){
+						if(index+1 == init){
+							cout<<"Tabela cheia, não foi possível inserir \""<<cont<<"\"\n";
+							return 0;
+						}
+					}else{
+						if(init == 0){
+							cout<<"Tabela cheia, não foi possível inserir \""<<cont<<"\"\n";
+							return 0;
+						}	
 					}
 					if(index+1 == mod)
 						index=-1;
@@ -80,44 +88,56 @@ class Hash{
 			int index = num_hash%mod;
 
 			if(table[index] ==  EMPTY){
-				cout<<"\""<<cont<<"\" não encontrado"<<endl;
+				//cout<<"\""<<cont<<"\" não encontrado"<<endl;
 				return -1;
 			}else{
 				if(table[index] == cont){
-					cout<<"\""<<cont<<"\" encontrado"<<endl
+					//cout<<"\""<<cont<<"\" encontrado"<<endl;
 					return index;
 				}
 				else{
 					int init = index;
-					index++;
+					if(index!=mod-1)
+						index++;
+					else
+						index=0;
 					while(table[index]!=cont){
-						if(index+1 == init){
-							cout<<"\""<<cont<<"\" não encontrado"<<endl;
-							return -1;
+						if(index!=mod-1){
+							if(index+1 == init){
+								//cout<<"\""<<cont<<"\""<<" não encontrado\n";
+								return 0;
+							}
+						}else{
+							if(init == 0){
+								//cout<<"\""<<cont<<"\""<<" não encontrado\n";
+								return 0;
+							}	
 						}
 						if(index+1 == mod)
 							index=-1;
 						index++;
 					}
-					cout<<"\""<<cont<<"\" encontrado"<<endl
+					//cout<<"\""<<cont<<"\" encontrado"<<endl;
 					return index;
 				}
 			}
 		}
 
-		void deleteElement(string cont){
+		int deleteElement(string cont){
 			int index = searchFor(cont);
 			if(index != -1){
 				table[index] = ";";
-				cout<<"\""<<cont<<"\" apagado\n";
+				//cout<<"\""<<cont<<"\" apagado\n";
+				return 1;
 			}
+			return 0;
 		}
 };
 
 int main(int argc, char **argv){
-	for(int i=1; i<NUMBER_OF_TESTS+1; i++){
+	for(int i=1; i<(argc-1)/2+1; i++){
 		int mod = atoi(argv[i]);
-		for(int j=4; j<=2*NUMBER_OF_TESTS; j++){
+		for(int j=4; j<=2*(argc-1)/2; j++){
 			int numbers = atoi(argv[j]);
 			cout<<"M = "<<mod<<" N = "<<numbers<<endl;
 
@@ -128,6 +148,5 @@ int main(int argc, char **argv){
 			cout<<"Colisões = "<<h.colision<<endl<<endl;
 		}
 	}
-
 
 }
